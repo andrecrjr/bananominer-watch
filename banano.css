@@ -26,7 +26,7 @@ body {
   text-align: center;
   width: 200px;
   padding-bottom: 10px;
-  color: yellow;
+  color: #FBDD11;
   font-weight: bold;
   margin: 0 auto;
 }
@@ -70,7 +70,7 @@ h1 {
 
 input {
   border-radius: 16px;
-  background: lightgoldenrodyellow;
+  background: #FBDD11;
   border: 0;
   height: 25px;
   padding: 3px;
