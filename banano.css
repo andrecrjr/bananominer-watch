@@ -1,0 +1,81 @@
+body {
+  width: 320px;
+  max-width: 660px;
+  height: 330px;
+  background: url(https://banano.cc/assets/bg-faucet.svg);
+  font-family: "Tahoma", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-repeat: repeat;
+  background-size: cover;
+  color: white;
+}
+
+.img--main {
+  width: 150px;
+  align-self: center;
+}
+
+.banano__title-error {
+  display: none;
+}
+.banano__title-error.open {
+  display: block;
+  text-align: center;
+  width: 200px;
+  padding-bottom: 10px;
+  color: yellow;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+/* banano user */
+.banano__title {
+  font-size: 1rem;
+  text-size: center;
+}
+.banano__user {
+  transition: all 400ms;
+}
+.banano__user.close {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.banano__user.close.none {
+  display: none;
+}
+
+p {
+  margin: 5px 0;
+}
+h1 {
+  margin: 10px 0;
+}
+
+/* buttons*/
+
+.remove.close {
+  display: none;
+  height: 0;
+}
+
+.remove {
+  display: block;
+}
+
+input {
+  border-radius: 16px;
+  background: lightgoldenrodyellow;
+  border: 0;
+  height: 25px;
+  padding: 3px;
+}
+
+button {
+  height: 20px;
+  border-radius: 5px;
+  border: 0;
+}

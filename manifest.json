@@ -1,0 +1,14 @@
+{
+  "name": "Banano Miner Viewer!",
+  "version": "1.0",
+  "description": "Better way to watch your payments with Banano mining! :)",
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "browser_action": {
+    "default_popup": "banano.html",
+    "default_icon": "icon.png"
+  },
+  "manifest_version": 2
+}
