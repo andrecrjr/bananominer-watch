@@ -1,7 +1,9 @@
-import { onloadLocalUser } from "./components/local.js";
-import { renderUserData } from "./components/renderUser.js";
+import {
+  localRenderData,
+  renderUserData,
+} from "./components/renderUser/index.js";
 
 (function () {
-  onloadLocalUser();
+  localRenderData();
   renderUserData();
 })();

@@ -1,13 +1,15 @@
-import { userInput, error, button, remove } from "./helper/querySelectors.js";
-import { updateUserData, removeUserData } from "./helper/updaters.js";
+import { userInput, error, button, remove } from "../helper/querySelectors.js";
+import { updateUserData, removeUserData } from "./updaters.js";
+import { localRenderData } from "./local.js";
 
+//get local user component to index
+export { localRenderData };
 //get banano async
-
 export const renderUserData = () => {
   //button render screen
   button.addEventListener("click", async function (e) {
     e.preventDefault();
-    //get
+    //get api
     await getDataBananoMiner();
   });
 
@@ -17,11 +19,11 @@ export const renderUserData = () => {
   });
 };
 
+//found API in the discord,
+//thanks https://discord.com/channels/415935345075421194/566268199210057728/721405574863912991
 export async function getDataBananoMiner() {
   let user = userInput.value;
-
   try {
-    //found API in the discord, thanks https://discord.com/channels/415935345075421194/566268199210057728/721405574863912991
     const response = await fetch(`https://bananominer.com/user_name/${user}`, {
       headers: {
         "Content-Type": "application/json",

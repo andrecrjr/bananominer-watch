@@ -1,4 +1,4 @@
-import { bananoSection, button, remove } from "./querySelectors.js";
+import { bananoSection, button, remove } from "../helper/querySelectors.js";
 
 export const updateUserData = (legenda = "Update!") => {
   button.innerText = legenda;
