@@ -1,7 +1,21 @@
-import { userInput, error } from "../helper/querySelectors.js";
-import { updateUserData } from "../helper/updaters.js";
+import { userInput, error, button, remove } from "./helper/querySelectors.js";
+import { updateUserData, removeUserData } from "./helper/updaters.js";
 
 //get banano async
+
+export const renderUserData = () => {
+  //button render screen
+  button.addEventListener("click", async function (e) {
+    e.preventDefault();
+    await getBanano();
+  });
+
+  //remove user page
+  remove.addEventListener("click", function () {
+    removeUserData();
+  });
+};
+
 export async function getBanano() {
   let user = userInput.value;
 
