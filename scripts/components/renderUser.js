@@ -1,19 +1,9 @@
-let bananoSection = document.querySelector(".banano__user");
-let body = document.querySelector("body");
-let button = document.querySelector(".getBanano");
-let remove = document.querySelector(".remove");
-const user_input = document.querySelector(".banano__input");
-let error = document.querySelector(".banano__title-error");
+import { userInput, error } from "../helper/querySelectors.js";
+import { updateUserData } from "../helper/updaters.js";
 
-body.onload = () => {
-  if (localStorage.getItem("template") && localStorage.getItem("user_id")) {
-    user_input.value = localStorage.getItem("user_id");
-    updateData();
-  }
-};
 //get banano async
-async function getBanano() {
-  let user = user_input.value;
+export async function getBanano() {
+  let user = userInput.value;
 
   try {
     //found API in the discord, thanks https://discord.com/channels/415935345075421194/566268199210057728/721405574863912991
@@ -34,15 +24,6 @@ async function getBanano() {
     console.log("errei");
   }
 }
-//remove screen
-remove.addEventListener("click", function () {
-  removeData();
-});
-//button render screen
-button.addEventListener("click", async function (e) {
-  e.preventDefault();
-  await getBanano();
-});
 
 //render user data screen
 const renderUser = (data) => {
@@ -66,7 +47,8 @@ const renderUser = (data) => {
   if (data.payments) {
     let totalAmount = 0;
     let totalWorkUnits = 0;
-    //script that i saw in the discord: https://discord.com/channels/415935345075421194/566268199210057728/723358892297551973 :)
+    //script that i saw in the discord:
+    // https://discord.com/channels/415935345075421194/566268199210057728/723358892297551973 :)
     data.payments.forEach((el) => {
       totalAmount += el.amount;
       totalWorkUnits += el.work_units;
@@ -78,28 +60,7 @@ const renderUser = (data) => {
   }
   localStorage.setItem("template", template);
   if (template) {
-    updateData();
+    updateUserData();
     return true;
   }
-};
-
-const updateData = (legenda = "Update!") => {
-  button.innerText = legenda;
-  bananoSection.classList.remove("close");
-  bananoSection.classList.remove("none");
-  remove.classList.remove("close");
-  bananoSection.innerHTML = localStorage.getItem("template");
-};
-
-const removeData = () => {
-  button.innerText = "Find me!";
-  bananoSection.classList.add("close");
-  localStorage.clear();
-  setTimeout(() => {
-    bananoSection.classList.add("none");
-  }, 550);
-  while (bananoSection.children > 0) {
-    bananoSection.removeChild();
-  }
-  remove.classList.add("close");
 };
