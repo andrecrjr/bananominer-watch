@@ -7,7 +7,8 @@ export const renderUserData = () => {
   //button render screen
   button.addEventListener("click", async function (e) {
     e.preventDefault();
-    await getBanano();
+    //get
+    await getDataBananoMiner();
   });
 
   //remove user page
@@ -16,7 +17,7 @@ export const renderUserData = () => {
   });
 };
 
-export async function getBanano() {
+export async function getDataBananoMiner() {
   let user = userInput.value;
 
   try {
