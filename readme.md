@@ -1,7 +1,6 @@
 # Introduction Banano Miner Watch V 1.1
 
 ![](./assets/mine-intro.png)
-(screenhost not up-to-date)
 
 Banano Miner Watch is a **Chrome Browser Extension** that gives you the amount that came from home@folding and WorkUnits that you worked there in an easy way!
 
@@ -29,7 +28,5 @@ Now it's easy, you get your user id from banano miner and put there! Then will s
 
 
 ![](./assets/inside-amount.png)
-(screenhost not up-to-date)
-
 
 *That's it guys, If you need to talk with me can found me on my [twitter](https://twitter.com/andrecrjr) or tip me with BATs or Bananos! Feel free to share and improve it that I can accept PR's!*
