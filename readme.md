@@ -1,16 +1,17 @@
-# Introduction Banano Miner Watch 
+# Introduction Banano Miner Watch V 1.1
 
 ![](./assets/mine-intro.png)
+(screenhost not up-to-date)
 
-Banano Miner Watch is a **Chrome Browser Extension** that gives you the amount that came from home@folding and WorkUnits that you worked there in a easy way!
-
+Banano Miner Watch is a **Chrome Browser Extension** that gives you the amount that came from home@folding and WorkUnits that you worked there in an easy way!
 
 # How to install?
 
-Because of the fee's creation for Chrome Developer Account ($5), i don't have that much because of my country fiat money.
-I put the code here to everyone that wants to use! If you want to improve/modify/fork, be free to do! :)
 
-*TL;DR Enable developer mode in Chrome Browser -> unzip this package then you'll choose him in the load unpackaged in your chrome browser (can be brave browser too!)*
+Version 1.2 is in the making and will be submitted for publication in the Chrome Extensions catalogue soon!
+Until then you can Follow the steps below to use Version 1.1 of extension already today.
+
+*TL;DR Enable developer mode in Chrome Browser -> unzip this package then select the folder by clicking the load unpackaged in your chrome browser (can be brave browser too!)*
 
 ## Step 1 Download from github
  Download the latest release from [tags in the github](https://github.com/andrecrjr/bananominer-watch/releases) (Download ZIP then you can unzip the folder)
@@ -28,6 +29,7 @@ Now it's easy, you get your user id from banano miner and put there! Then will s
 
 
 ![](./assets/inside-amount.png)
+(screenhost not up-to-date)
 
 
 *That's it guys, If you need to talk with me can found me on my [twitter](https://twitter.com/andrecrjr) or tip me with BATs or Bananos! Feel free to share and improve it that I can accept PR's!*

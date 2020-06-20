@@ -74,7 +74,7 @@ const renderUser = (data) => {
     template += `<h3><b>Total Amount</b>: ${totalAmount}</h3>`;
     template += `<h3><b>Total Work units worked</b>: ${totalWorkUnits}</h3>`;
   } else {
-    template += `No payments yet! Wait about 12 hours!`;
+    template += `No payments received yet! Wait about 12 hours!`;
   }
   localStorage.setItem("template", template);
   if (template) {
