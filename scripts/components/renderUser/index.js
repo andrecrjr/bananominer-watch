@@ -20,8 +20,6 @@ export const renderUserData = () => {
   });
 };
 
-//found API in the discord,
-//thanks https://discord.com/channels/415935345075421194/566268199210057728/721405574863912991
 export async function getDataBananoMiner() {
   let user = userInput.value;
   try {
@@ -37,6 +35,9 @@ export async function getDataBananoMiner() {
 }
 
 export const fetchData = async (user) => {
+  //found API in the discord,
+  //thanks https://discord.com/channels/415935345075421194/566268199210057728/721405574863912991
+  //cors anywhere because of the cors from fold@home
   const bananoData = await Promise.all([
     fetch(`https://bananominer.com/user_name/${user}`),
     fetch(
