@@ -8,7 +8,7 @@ body {
   max-width: 660px;
   height: 330px;
   background: url(https://banano.cc/assets/bg-faucet.svg);
-  font-family: 'Banfont';
+  font-family: "Banfont";
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -41,6 +41,7 @@ body {
 .banano__title {
    font-size: 1rem;
    text-align: center;
+
 }
 .banano__user {
   transition: all 400ms;
@@ -57,9 +58,11 @@ body {
 
 p {
   margin: 5px 0;
+  font-family: "Banfont";
 }
 h2 {
   margin: 10px 0;
+  font-family: "Banfont";
 }
 
 /* buttons*/

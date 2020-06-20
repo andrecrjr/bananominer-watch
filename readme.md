@@ -7,6 +7,7 @@ Banano Miner Watch is a **Chrome Browser Extension** that gives you the amount t
 
 # How to install?
 
+
 Version 1.2 is in the making and will be submitted for publication in the Chrome Extensions catalogue soon!
 Until then you can Follow the steps below to use Version 1.1 of extension already today.
 
