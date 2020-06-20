@@ -39,7 +39,7 @@ body {
 /* banano user */
 .banano__title {
   font-size: 1rem;
-  text-size: center;
+  text-align: center;
 }
 .banano__user {
   transition: all 400ms;
