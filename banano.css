@@ -1,9 +1,14 @@
+@font-face {
+  font-family: 'Banfont';
+  src: url('NeueHansKendrick-Regular.ttf') format('truetype');
+}
+
 body {
   width: 320px;
   max-width: 660px;
   height: 330px;
   background: url(https://banano.cc/assets/bg-faucet.svg);
-  font-family: "Tahoma", sans-serif;
+  font-family: 'Banfont';
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,19 +27,20 @@ body {
   display: none;
 }
 .banano__title-error.open {
+  font-family: 'Banfont';
   display: block;
   text-align: center;
   width: 200px;
   padding-bottom: 10px;
   color: #FBDD11;
-  font-weight: bold;
+  font-weight: normal;
   margin: 0 auto;
 }
 
 /* banano user */
 .banano__title {
-  font-size: 1rem;
-  text-size: center;
+   font-size: 1rem;
+   text-align: center;
 }
 .banano__user {
   transition: all 400ms;
@@ -47,11 +53,12 @@ body {
 .banano__user.close.none {
   display: none;
 }
+.
 
 p {
   margin: 5px 0;
 }
-h1 {
+h2 {
   margin: 10px 0;
 }
 
