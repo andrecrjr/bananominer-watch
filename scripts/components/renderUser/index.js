@@ -51,17 +51,16 @@ export const fetchData = async (user) => {
   if (bananoData[0].status === 200 && bananoData[1].status === 200) {
     error.classList.remove("open");
     localStorage.setItem("user_id", data[1].name);
-    renderUser(data);
+    renderComponent(data);
   } else {
-    error.innerText =
-      "User ID could not be found. Please try again with another!";
+    error.innerText = "User ID don't exist. Please try again with another!";
     error.classList.add("open");
     removeUserData();
   }
 };
 
-//render user data screen
-const renderUser = (data) => {
+//render component user data screen
+const renderComponent = (data) => {
   let template = ``;
   let totalAmount = 0;
   let datetime = new Date();
