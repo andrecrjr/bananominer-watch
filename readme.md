@@ -7,7 +7,8 @@ Banano Miner Watch is a **Chrome Browser Extension** that gives you the amount t
 
 # How to install?
 
-Because of the fee's creation for Chrome Developer Account ($5), i don't have that much because of my country fiat money, to upload the zip folder I just put the code here to everyone that wants to use! If you want to improve and modify, be free to do! :)
+Because of the fee's creation for Chrome Developer Account ($5), i don't have that much because of my country fiat money.
+I put the code here to everyone that wants to use! If you want to improve/modify/fork, be free to do! :)
 
 *TL;DR Enable developer mode in Chrome Browser -> unzip this package then you'll choose him in the load unpackaged in your chrome browser (can be brave browser too!)*
 
