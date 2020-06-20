@@ -24,60 +24,63 @@ export const renderUserData = () => {
 export async function getDataBananoMiner() {
   let user = userInput.value;
   try {
-    const response = await fetch(`https://bananominer.com/user_name/${user}`, {
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-    });
-    const data = await response.json();
-    if (data) {
-      error.classList.remove("open");
-      localStorage.setItem("user_id", user);
-      renderUser(data);
-    }
+    await fetchData(user);
   } catch (e) {
     error.classList.add("open");
-    console.log("errei");
+    removeUserData();
+    console.log(e);
   }
 }
 
 //render user data screen
 const renderUser = (data) => {
   let template = ``;
-
+  let totalAmount = 0;
   template += `<h3>Last update: ${
     new Date().getMonth() + 1
   }/${new Date().getDate()} - ${new Date().getHours()}:${
     10 > new Date().getMinutes()
       ? `0${new Date().getMinutes()}`
       : new Date().getMinutes()
-  }</h3>`;
-  template += `<p>User: ${data.user.id}</p>`;
-  template += `<p>BAN Address: ${data.user.name.substring(0, 15)}...</p>`;
-  template += `<p>Account created at: ${
-    new Date(data.user.created_at).getMonth() + 1
-  }/${new Date(data.user.created_at).getDate()}/${new Date(
-    data.user.created_at
+  }</h3>
+  <p>User: ${data[0].user.id}</p>
+  <p>BAN Address: ${data[0].user.name.substring(0, 15)}...</p>
+  <p>Account created at: ${
+    new Date(data[0].user.created_at).getMonth() + 1
+  }/${new Date(data[0].user.created_at).getDate()}/${new Date(
+    data[0].user.created_at
   ).getFullYear()}</p>`;
 
-  if (data.payments) {
-    let totalAmount = 0;
-    let totalWorkUnits = 0;
-    //script that i saw in the discord:
-    // https://discord.com/channels/415935345075421194/566268199210057728/723358892297551973 :)
-    data.payments.forEach((el) => {
+  if (data[0].payments) {
+    data[0].payments.forEach((el) => {
       totalAmount += el.amount;
-      totalWorkUnits += el.work_units;
     });
-    template += `<h3><b>Total Amount</b>: ${totalAmount}</h3>`;
-    template += `<h3><b>Total Work units worked</b>: ${totalWorkUnits}</h3>`;
-  } else {
-    template += `No payments received yet! Wait about 12 hours!`;
   }
+  template += `<h3><b>Total Amount</b>: ${totalAmount}</h3>`;
+  template += `<h3><b>Total Work Units worked</b>: ${data[1].wus}</h3>`;
+
   localStorage.setItem("template", template);
   if (template) {
     updateUserData();
     return true;
+  }
+};
+
+export const fetchData = async (user) => {
+  const bananoData = await Promise.all([
+    fetch(`https://bananominer.com/user_name/${user}`),
+    fetch(
+      `https://cors-anywhere.herokuapp.com/https://stats.foldingathome.org/api/donor/${user}`,
+      {
+        "Content-Type": "application/json",
+      }
+    ),
+  ]);
+  const data = await Promise.all([bananoData[0].json(), bananoData[1].json()]);
+
+  if (data) {
+    error.classList.remove("open");
+    localStorage.setItem("user_id", data[1].name);
+    renderUser(data);
   }
 };
