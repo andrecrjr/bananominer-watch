@@ -44,7 +44,7 @@ button.addEventListener("click", async function (e) {
   await getBanano();
 });
 
-//render user screen
+//render user data screen
 const renderUser = (data) => {
   let template = ``;
 
@@ -74,7 +74,7 @@ const renderUser = (data) => {
     template += `<h3><b>Total Amount</b>: ${totalAmount}</h3>`;
     template += `<h3><b>Total Work units worked</b>: ${totalWorkUnits}</h3>`;
   } else {
-    template += `None payments done yet! Wait about 12 hours!`;
+    template += `No payments received yet! Wait about 12 hours!`;
   }
   localStorage.setItem("template", template);
   if (template) {
