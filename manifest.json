@@ -1,7 +1,7 @@
 {
   "name": "Banano Miner Viewer!",
-  "version": "1.0",
-  "description": "Better way to watch your payments with Banano mining! :)",
+  "version": "1.1",
+  "description": "A better way to check your contributions to the www.banano.cc Folding@Home team and see your total $BAN earnings :)",
   "icons": {
     "48": "icon48.png",
     "128": "icon128.png"
