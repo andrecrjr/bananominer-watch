@@ -1,9 +1,14 @@
+@font-face {
+  font-family: "Banfont";
+  src: url("NeueHansKendrick-Regular.ttf") format("truetype");
+}
+
 body {
   width: 320px;
   max-width: 660px;
   height: 330px;
   background: url(https://banano.cc/assets/bg-faucet.svg);
-  font-family: "Tahoma", sans-serif;
+  font-family: "Banfont";
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -50,9 +55,11 @@ body {
 
 p {
   margin: 5px 0;
+  font-family: "Banfont";
 }
 h1 {
   margin: 10px 0;
+  font-family: "Banfont";
 }
 
 /* buttons*/
