@@ -1,12 +1,10 @@
-# Introduction Banano Miner Watch V 1.1
+# Introduction to BananoMiner Watch V 1.1
 
 ![](./assets/mine-intro.png)
-(screenhost not up-to-date)
 
-Banano Miner Watch is a **Chrome Browser Extension** that gives you the amount that came from home@folding and WorkUnits that you worked there in an easy way!
+BananoMiner Watch is a **Chrome Browser Extension** that shows you all the stats about your contributions to the [www.banano.cc team](https://stats.foldingathome.org/team/234980) at [Folding@home](https://foldingathome.org/) including the amount of $BAN you have already earned using your config from [https://bananominer.com/](https://bananominer.com/).
 
 # How to install?
-
 
 Version 1.2 is in the making and will be submitted for publication in the Chrome Extensions catalogue soon!
 Until then you can Follow the steps below to use Version 1.1 of extension already today.
@@ -29,7 +27,5 @@ Now it's easy, you get your user id from banano miner and put there! Then will s
 
 
 ![](./assets/inside-amount.png)
-(screenhost not up-to-date)
 
-
-*That's it guys, If you need to talk with me can found me on my [twitter](https://twitter.com/andrecrjr) or tip me with BATs or Bananos! Feel free to share and improve it that I can accept PR's!*
+*That's it guys, If you need to talk with me can found me on my [twitter](https://twitter.com/andrecrjr)! Feel free to share and improve it that I can accept PR's!*
