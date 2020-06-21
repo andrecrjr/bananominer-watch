@@ -7,10 +7,10 @@ export const validationInputAddress = (inputValue) => {
   if (lessValue || noValue) {
     error.classList.add("open");
     if (lessValue) {
-      error.innerHTML = `The length of User ID is less than expected from home@folding.<br>Please try again.`;
+      error.innerHTML = `User ID must be 7 characters.<br>Please try again.`;
     }
     if (noValue) {
-      error.innerHTML = `Please type an User ID first!`;
+      error.innerHTML = `Please input User ID`;
     }
     removeUserData();
     return false;

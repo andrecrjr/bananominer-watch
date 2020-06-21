@@ -28,7 +28,7 @@ export async function getDataBananoMiner() {
     }
   } catch (e) {
     error.classList.add("open");
-    error.innerText = `User ID could not be found. Please try again with another!`;
+    error.innerText = `User ID could not be found. Please try again!`;
     removeUserData();
     console.log(e);
   }
@@ -53,7 +53,7 @@ export const fetchData = async (user) => {
     localStorage.setItem("user_id", data[1].name);
     renderComponent(data);
   } else {
-    error.innerText = "User ID don't exist. Please try again with another!";
+    error.innerText = "User ID doesn't exist. Please try again!";
     error.classList.add("open");
     removeUserData();
   }
@@ -64,16 +64,16 @@ const renderComponent = (data) => {
   let template = ``;
   let totalAmount = 0;
   let datetime = new Date();
-  template += `<h3>Last update: ${
+  template += `<p2>Last update:</p2><p> ${
     datetime.getMonth() + 1
   }/${datetime.getDate()} - ${datetime.getHours()}:${
     10 > datetime.getMinutes()
       ? `0${datetime.getMinutes()}`
       : datetime.getMinutes()
-  }</h3>
-  <p>User: ${data[0].user.id}</p>
-  <p>BAN Address: ${data[0].user.name.substring(0, 15)}...</p>
-  <p>Account created at: ${
+  }</p>
+  <p2>User:</p2><p>${data[0].user.id}</p>
+  <p2>BAN Address:</p2><p> ${data[0].user.name.substring(0, 64)}</p>
+  <p2>Account created at:</p2><p> ${
     new Date(data[0].user.created_at).getMonth() + 1
   }/${new Date(data[0].user.created_at).getDate()}/${new Date(
     data[0].user.created_at
@@ -84,8 +84,8 @@ const renderComponent = (data) => {
       totalAmount += el.amount;
     });
   }
-  template += `<h3><b>Total Amount</b>: ${totalAmount}</h3>`;
-  template += `<h3><b>Total Work Units worked</b>: ${data[1].wus}</h3>`;
+  template += `<p2>Total $BAN earned:</p2><p>${totalAmount}</p>`;
+  template += `<p2>Total Work Units completed:</p2><p>${data[1].wus}</p>`;
 
   localStorage.setItem("template", template);
   if (template) {
