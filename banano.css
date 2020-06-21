@@ -71,19 +71,24 @@ section.banano__info {
 .banano__user.close.none {
   display: none;
 }
+
 p,
 h2 {
   margin: 5px 0;
   font-family: "Banfont";
   font-size: 16px;
   color: white;
+  display: flex;
+  align-items: center;
 }
+
 h2 {
   font-weight: bold;
   color: black;
   padding-right: 10px;
-  width: 145px;
+  width: 150px;
 }
+
 h1 {
   margin: 10px 0;
   font-family: "Banfont";

@@ -48,6 +48,7 @@ export const fetchData = async (user) => {
     ),
   ]);
   const data = await Promise.all([bananoData[0].json(), bananoData[1].json()]);
+  console.log(data);
   if (bananoData[0].status === 200 && bananoData[1].status === 200) {
     error.classList.remove("open");
     localStorage.setItem("user_id", data[1].name);
@@ -78,6 +79,7 @@ const renderComponent = (data) => {
   <section class="banano__info">
   <h2>BAN Address:</h2><p> ${data[0].user.name.substring(0, 64)}</p>
   </section>
+  
   <section class="banano__info">
   <h2>Account created at:</h2><p> ${
     new Date(data[0].user.created_at).getMonth() + 1
@@ -93,7 +95,12 @@ const renderComponent = (data) => {
     });
   }
   template += `<section class="banano__info"><h2>Total $BAN earned:</h2><p>${totalAmount}</p></section>`;
-  template += `<section class="banano__info"><h2>Total Work Units:</h2><p>${data[1].wus}</p></section>`;
+  template += `<section class="banano__info"><h2>${`Last Work Unit mined`}:</h2><p> ${
+    data[1].last
+  }</p></section>`;
+  template += `<section class="banano__info"><h2>${`Total Work Units`}:</h2><p>${
+    data[1].wus
+  }</p></section>`;
 
   localStorage.setItem("template", template);
   if (template) {
