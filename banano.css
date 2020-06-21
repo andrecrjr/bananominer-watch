@@ -1,22 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 @font-face {
-  font-family: 'Banfont';
-  src: url('NeueHansKendrick-Regular.ttf') format('truetype');
+  font-family: "Banfont";
+  src: url("NeueHansKendrick-Regular.ttf") format("truetype");
 }
 
 body {
   width: 800px;
   max-width: 850px;
-  height: 350px;
+  height: auto;
   background: url(https://banano.cc/assets/bg-faucet.svg);
   font-family: "Banfont";
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   background-repeat: repeat;
   background-size: cover;
   color: white;
   font-size: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+main {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+section.banano__info {
+  display: flex;
 }
 
 .img--main {
@@ -28,21 +45,20 @@ body {
   display: none;
 }
 .banano__title-error.open {
-  font-family: 'Banfont';
+  font-family: "Banfont";
   display: block;
   text-align: center;
   width: 400px;
   padding-bottom: 10px;
-  color: #FBDD11;
+  color: #fbdd11;
   font-weight: normal;
   margin: 0 auto;
 }
 
 /* banano user */
 .banano__title {
-   font-size: 1rem;
-   text-align: center;
-
+  font-size: 1rem;
+  text-align: center;
 }
 .banano__user {
   transition: all 400ms;
@@ -55,15 +71,17 @@ body {
 .banano__user.close.none {
   display: none;
 }
-p, p2{
+p,
+h2 {
   margin: 5px 0;
   font-family: "Banfont";
   font-size: 16px;
   color: white;
 }
-p2 {
+h2 {
   font-weight: bold;
   color: black;
+  padding-right: 10px;
 }
 h1 {
   margin: 10px 0;
@@ -79,6 +97,11 @@ h3 {
 }
 
 /* buttons*/
+
+.banano__input-section {
+  align-self: center;
+  text-align: center;
+}
 
 .remove.close {
   display: none;
@@ -100,10 +123,14 @@ input {
   width: 100px;
 }
 
-button {
+button.get__banano {
   height: 26px;
   border-radius: 15px;
-  border: 0;
-  background-color: #008CBA;
+  padding: 5px;
+  background-color: #008cba;
   color: white;
+}
+
+button {
+  border: 0;
 }

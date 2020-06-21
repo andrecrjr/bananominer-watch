@@ -64,28 +64,36 @@ const renderComponent = (data) => {
   let template = ``;
   let totalAmount = 0;
   let datetime = new Date();
-  template += `<p2>Last update:</p2><p> ${
+  template += `<section class="banano__info"> <h2>Last update:</h2><p> ${
     datetime.getMonth() + 1
   }/${datetime.getDate()} - ${datetime.getHours()}:${
     10 > datetime.getMinutes()
       ? `0${datetime.getMinutes()}`
       : datetime.getMinutes()
   }</p>
-  <p2>User:</p2><p>${data[0].user.id}</p>
-  <p2>BAN Address:</p2><p> ${data[0].user.name.substring(0, 64)}</p>
-  <p2>Account created at:</p2><p> ${
+  </section>
+  <section class="banano__info">
+  <h2>User ID:</h2><p>${data[0].user.id}</p>
+  </section>
+  <section class="banano__info">
+  <h2>BAN Address:</h2><p> ${data[0].user.name.substring(0, 64)}</p>
+  </section>
+  <section class="banano__info">
+  <h2>Account created at:</h2><p> ${
     new Date(data[0].user.created_at).getMonth() + 1
   }/${new Date(data[0].user.created_at).getDate()}/${new Date(
     data[0].user.created_at
-  ).getFullYear()}</p>`;
+  ).getFullYear()}</p>
+  </section>
+  `;
 
   if (data[0].payments) {
     data[0].payments.forEach((el) => {
       totalAmount += el.amount;
     });
   }
-  template += `<p2>Total $BAN earned:</p2><p>${totalAmount}</p>`;
-  template += `<p2>Total Work Units completed:</p2><p>${data[1].wus}</p>`;
+  template += `<section class="banano__info"><h2>Total $BAN earned:</h2><p>${totalAmount}</p></section>`;
+  template += `<section class="banano__info"><h2>Total Work Units:</h2><p>${data[1].wus}</p></section>`;
 
   localStorage.setItem("template", template);
   if (template) {
