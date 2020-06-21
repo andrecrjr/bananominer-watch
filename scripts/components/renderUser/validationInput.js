@@ -2,7 +2,7 @@ import { error } from "../helper/querySelectors.js";
 import { removeUserData } from "./updaters.js";
 
 export const validationInputAddress = (inputValue) => {
-  let lessValue = inputValue.length < 12;
+  let lessValue = inputValue.length < 7;
   let noValue = inputValue === "";
   if (lessValue || noValue) {
     error.classList.add("open");
