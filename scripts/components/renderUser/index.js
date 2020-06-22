@@ -81,7 +81,7 @@ const renderComponent = (data) => {
   </section>
   
   <section class="banano__info">
-  <h2>Account created at:</h2><p> ${
+  <h2>Account created on:</h2><p> ${
     new Date(data[0].user.created_at).getMonth() + 1
   }/${new Date(data[0].user.created_at).getDate()}/${new Date(
     data[0].user.created_at
