@@ -11,5 +11,6 @@
     "default_popup": "banano.html",
     "default_icon": "icon.png"
   },
+  "background": [{ "scripts": "background.js" }],
   "manifest_version": 2
 }

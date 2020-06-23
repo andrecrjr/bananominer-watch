@@ -32,7 +32,6 @@ export async function getDataBananoMiner() {
     error.classList.add("open");
     error.innerText = chrome.i18n.getMessage("errNotfound");
     removeUserData();
-    console.log(e);
   }
 }
 
@@ -53,7 +52,6 @@ export const fetchData = async (user) => {
   console.log(data);
   if (bananoData[0].status === 200 && bananoData[1].status === 200) {
     error.classList.remove("open");
-    localStorage.setItem("user_id", data[1].name);
     renderComponent(data);
   } else {
     error.innerText = chrome.i18n.getMessage("errNotfound");
@@ -107,7 +105,7 @@ const renderComponent = (data) => {
   template += `<section class="banano__info"><h2>${chrome.i18n.getMessage(
     "totalWU"
   )}:</h2><p>${data[1].wus}</p></section>`;
-
+  localStorage.setItem("user_id", data[0].user.id);
   localStorage.setItem("template", template);
   if (template) {
     updateUserData();
