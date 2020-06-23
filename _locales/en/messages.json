@@ -1,47 +1,50 @@
 {
-  "extDescription": {
-    "message": "BananoMiner Watch shows you all the stats about your contributions to the www.banano.cc team at Folding@home including the amount of $BAN you have already earned using your config from https://bananominer.com/."
-  },
-  "findMe": {
-    "message": "Find me!"
-  },
-  "yourUser": {
-    "message": "Enter User ID:"
-  },
-  "errEmpty": {
-    "message": "Please input User ID"
-  },
-  "errShort": {
-    "message": "User ID must be 7 characters. Please try again."
-  },
-  "update": {
-    "message": "Update!"
-  },
-  "lastUpdate": {
-    "message": "Last update:"
-  },
-  "banAdr": {
-    "message": "BAN address:"
-  },
-  "AccCreated": {
-    "message": "Account created on:"
-  },
-  "barEarned": {
-    "message": "Total $BAN earned:"
-  },
-  "lastWU": {
-    "message": "Last Work Unit mined:"
-  },
-  "totalWU": {
-    "message": "Total Work Units:"
-  },
-  "lang": {
-    "message": "English"
-  },
-  "extName": {
-    "message": "BananoMiner Watch"
-  },
-  "langCode": {
-    "message": "en"
-  }
+    "extDescription": {
+        "message": "BananoMiner Watch shows you all the stats about your contributions to the www.banano.cc team at Folding@home including the amount of $BAN you have already earned using your config from https://bananominer.com/."
+    },
+    "findMe": {
+        "message": "Find me!"
+    },
+    "yourUser": {
+        "message": "Enter User ID:"
+    },
+    "errEmpty": {
+        "message": "Please input User ID."
+    },
+    "errShort": {
+        "message": "User ID must be 7 characters. Please try again."
+    },
+    "update": {
+        "message": "Update!"
+    },
+    "lastUpdate": {
+        "message": "Last update:"
+    },
+    "banAdr": {
+        "message": "BAN address:"
+    },
+    "AccCreated": {
+        "message": "Account created on:"
+    },
+    "banEarned": {
+        "message": "Total $BAN earned:"
+    },
+    "lastWU": {
+        "message": "Last Work Unit mined:"
+    },
+    "totalWU": {
+        "message": "Total Work Units:"
+    },
+    "lang": 	{
+        "message": "English"
+    },
+    "extName": {
+        "message": "BananoMiner Watch"
+    },
+    "langCode": {
+        "message": "en"
+    }
+	"errNotfound": {
+		"message": "User ID doesn´t exist. Please try again."
+	},
 }

@@ -1,0 +1,50 @@
+{
+    "extDescription": {
+        "message": "BananoMiner Watch показывает вам всю статистику о вашем вкладе в команду www.banano.cc на Folding@home, включая сумму $BAN, которую вы уже заработали, используя свою конфигурацию с https://bananominer.com/."
+    },
+    "findMe": {
+        "message": "Найди меня!"
+    },
+    "yourUser": {
+        "message": "Введите идентификатор пользователя:"
+    },
+    "errEmpty": {
+        "message": "Пожалуйста, введите идентификатор пользователя."
+    },
+    "errShort": {
+        "message": "Идентификатор пользователя должен быть 7 символов. Пожалуйста, попробуйте еще раз."
+    },
+    "update": {
+        "message": "Обновить!"
+    },
+    "lastUpdate": {
+        "message": "Последнее обновление:"
+    },
+    "banAdr": {
+        "message": "BAN адрес:"
+    },
+    "AccCreated": {
+        "message": "Аккаунт создан на:"
+    },
+    "banEarned": {
+        "message": "Всего $BAN заработано:"
+    },
+    "lastWU": {
+        "message": "Последняя добытая единица работы:"
+    },
+    "totalWU": {
+        "message": "Всего рабочих единиц:"
+    },
+    "lang": {
+        "message": "Pусский"
+    },
+    "extName": {
+        "message": "BananoMiner Watch"
+    },
+    "langCode": {
+        "message": "ru"
+    },
+    "errNotfound": {
+        "message": "User ID не существует. Пожалуйста, попробуйте еще раз."
+    }
+}
