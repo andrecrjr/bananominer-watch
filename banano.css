@@ -84,14 +84,6 @@ h2 {
   display: flex;
   align-items: center;
 }
-p2,
-h4 {
-  margin: 5px 0;
-  font-size: 16px;
-  color: white;
-  display: flex;
-  align-items: center;
-}
 h2 {
   font-weight: bold;
   color: black;
@@ -111,12 +103,6 @@ h3 {
   font-size: 18px;
   color: #fbdd11;
 }
-h4{
-  font-family: "Banfont";
-}
-p2{
-  font-family: "BanAddress";
-}  
 /* buttons*/
 
 .banano__input-section {

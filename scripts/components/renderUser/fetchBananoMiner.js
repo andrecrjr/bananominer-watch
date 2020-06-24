@@ -59,9 +59,9 @@ const renderComponent = (data) => {
     <h2>User ID:</h2><p>${data[0].user.id}</p>
     </section>
     <section class="banano__info">
-    <h4>${chrome.i18n.getMessage(
+    <h2>${chrome.i18n.getMessage(
       "banAdr"
-    )}</h4><p2 class="banano__info--address">${data[0].user.name}</p2>
+    )}</h2><p2 class="banano__info--address">${data[0].user.name}</p2>
     </section>
     
     <section class="banano__info">
