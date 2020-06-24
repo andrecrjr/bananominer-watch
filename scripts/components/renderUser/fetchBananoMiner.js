@@ -87,6 +87,9 @@ const renderComponent = (data) => {
   template += `<section class="banano__info"><h2>${chrome.i18n.getMessage(
     "totalWU"
   )}</h2><p>${data[1].wus}</p></section>`;
+  template += `<img class="monkey__user" 
+  src="https://bananomonkeys.herokuapp.com/image?address=${data[0].user.name}" 
+  title="monKey for ban_XXX"/>`;
   localStorage.setItem("user_id", data[0].user.id);
   localStorage.setItem("template", template);
   if (template) {

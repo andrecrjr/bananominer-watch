@@ -61,6 +61,7 @@ section.banano__info {
   text-align: center;
 }
 .banano__user {
+  position: relative;
   transition: all 400ms;
 }
 .banano__user.close {
@@ -139,4 +140,18 @@ button.get__banano {
 
 button {
   border: 0;
+}
+
+/* monkey user */
+.monkey__user {
+  position: absolute;
+  opacity: 0;
+  width: 300px;
+  top: -75;
+  right: 0;
+  transition: 400ms opacity ease-in;
+}
+
+.monkey__user.open {
+  opacity: 1;
 }
