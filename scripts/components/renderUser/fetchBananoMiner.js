@@ -89,7 +89,11 @@ const renderComponent = (data) => {
   )}</h2><p>${data[1].wus}</p></section>`;
   template += `<img class="monkey__user" 
   src="https://bananomonkeys.herokuapp.com/image?address=${data[0].user.name}" 
-  title="monKey for ban_XXX"/>`;
+  title="monKey for ban_XXX"/>
+  <button class="remove">
+    <img src="./assets/trash.png" width="25" />
+  </button>
+  `;
   localStorage.setItem("user_id", data[0].user.id);
   localStorage.setItem("template", template);
   if (template) {
