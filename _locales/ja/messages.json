@@ -1,0 +1,50 @@
+{
+    "extDescription": {
+        "message": "BananoMiner Watchは、 www.banano.ccチームに対するあなたの貢献に関する全ての統計情報を表示します。これには、 https://bananominer.com/からの設定を使用して既に取得した$BANの金額も含まれます。"
+    },
+    "findMe": {
+        "message": "私を見つけて!"
+    },
+    "yourUser": {
+        "message": "ユーザーIDの入力:"
+    },
+    "errEmpty": {
+        "message": "ユーザーIDを入力してください："
+    },
+    "errShort": {
+        "message": "ユーザーIDは7文字にする必要があります。 もう一度やり直してください。"
+    },
+    "update": {
+        "message": "アップデート!"
+    },
+    "lastUpdate": {
+        "message": "最終更新："
+    },
+    "banAdr": {
+        "message": "BANアドレス"
+    },
+    "AccCreated": {
+        "message":": "アカウントの作成日:"
+    },
+    "banEarned": {
+        "message": "$BANの獲得合計："
+    },
+    "lastWU": {
+        "message": "マイニングされた最後の作業単位："
+    },
+    "totalWU": {
+        "message": "合計作業単位:"
+    },
+    "lang": {
+        "message": "英語"
+    },
+    "extName": {
+        "message": "BananoMiner Watch"
+    },
+    "langCode": {
+        "message": "ja"
+    },
+    "errNotfound": {
+        "message": "ユーザーIDが存在しません。 もう一度やり直してください。"
+    }
+}
