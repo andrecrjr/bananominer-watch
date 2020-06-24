@@ -146,9 +146,9 @@ button {
 .monkey__user {
   position: absolute;
   display: none;
-  width: 340px;
-  top: -75;
-  right: 0;
+  width: 400px;
+  top: -120;
+  right: -100;
   transition: 400ms opacity ease-in;
 }
 
