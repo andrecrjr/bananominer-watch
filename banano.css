@@ -4,9 +4,12 @@
 }
 @font-face {
   font-family: "Banfont";
-  src: url("/fonts/NeueHansKendrick-Regular.ttf") format("truetype");
-   font-family: "BanAddress";
-  src: url("/fonts/OverpassMono-SemiBold.ttf") format("truetype");
+  src: url("./fonts/NeueHansKendrick-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "BanAddress";
+  src: url("./fonts/OverpassMono-SemiBold.ttf") format("truetype");
 }
 
 body {
@@ -47,7 +50,6 @@ section.banano__info {
   display: none;
 }
 .banano__title-error.open {
-  font-family: "Banfont";
   display: block;
   text-align: center;
   width: 400px;
@@ -78,7 +80,6 @@ section.banano__info {
 p,
 h2 {
   margin: 5px 0;
-  font-family: "Banfont";
   font-size: 16px;
   color: white;
   display: flex;
@@ -93,16 +94,21 @@ h2 {
 
 h1 {
   margin: 10px 0;
-  font-family: "Banfont";
   font-size: 26px;
 }
 
 h3 {
   margin: 5px 0;
-  font-family: "Banfont";
   font-size: 18px;
   color: #fbdd11;
 }
+
+.banano__info--address {
+  font-family: "BanAddress";
+  font-size: 14px;
+}
+}
+
 /* buttons*/
 
 .banano__input-section {
