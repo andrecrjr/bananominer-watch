@@ -6,7 +6,7 @@
     "message": "Find me!"
   },
   "yourUser": {
-    "message": "Enter User ID:"
+    "message": "Your User ID:"
   },
   "errEmpty": {
     "message": "Please input User ID."
