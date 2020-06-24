@@ -6,10 +6,10 @@ import { monkeyAddress } from "./monkeyAddress.js";
 
 //get local user component to index
 
-export { localRenderData, monkeyAddress };
-
 //get banano async
 export const renderUserData = () => {
+  localRenderData();
+  monkeyAddress();
   //button render screen
   button.innerText = chrome.i18n.getMessage("findMe");
   userInput.placeholder = chrome.i18n.getMessage("yourUser");
