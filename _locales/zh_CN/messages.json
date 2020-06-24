@@ -1,50 +1,50 @@
 {
-    "extDescription": {
-        "message": "\"BananoMiner Watch\" 显示有关您对www.banano.cc团队在Folding @ home上的贡献的所有统计信息，包括您已经使用https://bananominer.com/的配置获得的$ BAN金额。"
-    },
-    "findMe": {
-        "message "寻找！"
-    },
-    "yourUser": {
-        "message": "输入用户名：\n"
-    },
-    "errEmpty": {
-        "message": "请输入用户名\n"
-    },
-    "errShort": {
-        "message": "用户ID必须为7个字符。请再试一遍。\n"
-    },
-    "update": {
-        "message": "更新！\n"
-    },
-    "lastUpdate": {
-        "message": "最后更新：\n"
-    },
-    "banAdr": {
-        "message": "BAN地址："
-    },
-    "AccCreated": {
-        "message": "帐户创建于："
-    },
-    "banEarned": {
-        "message": "总共赚取的$ BAN："
-    },
-    "lastWU": {
-        "message": "最后开采的单位：\n"
-    },
-    "totalWU": {
-        "message": "总工作单位："
-    },
-    "lang": {
-        "message": "英语"
-    },
-    "extName": {
-        "message": "BananoMiner Watch"
-    },
-    "langCode": {
-        "message": "zh_CN"
-    },
-    "errNotfound": {
-        "message": "用户ID不存在。请再试一遍。"
-    }
+  "extDescription": {
+    "message": "BananoMiner Watch 显示有关您对www.banano.cc团队在Folding @ home上的贡献的所有统计信息，包括您已经使用https://bananominer.com/的配置获得的$ BAN金额。"
+  },
+  "findMe": {
+    "message": "寻找"
+  },
+  "yourUser": {
+    "message": "输入用户名："
+  },
+  "errEmpty": {
+    "message": "请输入用户名"
+  },
+  "errShort": {
+    "message": "用户ID必须为7个字符。请再试一遍。"
+  },
+  "update": {
+    "message": "更新！\n"
+  },
+  "lastUpdate": {
+    "message": "最后更新：\n"
+  },
+  "banAdr": {
+    "message": "BAN地址："
+  },
+  "AccCreated": {
+    "message": "帐户创建于："
+  },
+  "banEarned": {
+    "message": "总共赚取的$ BAN："
+  },
+  "lastWU": {
+    "message": "最后开采的单位：\n"
+  },
+  "totalWU": {
+    "message": "总工作单位："
+  },
+  "lang": {
+    "message": "英语"
+  },
+  "extName": {
+    "message": "BananoMiner Watch"
+  },
+  "langCode": {
+    "message": "zh_CN"
+  },
+  "errNotfound": {
+    "message": "用户ID不存在。请再试一遍。"
+  }
 }
