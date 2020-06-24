@@ -27,7 +27,7 @@
         "message":": "アカウントの作成日:"
     },
     "banEarned": {
-        "message": "$BANの獲得合計："
+        "message": "BANの獲得合計："
     },
     "lastWU": {
         "message": "マイニングされた最後の作業単位："

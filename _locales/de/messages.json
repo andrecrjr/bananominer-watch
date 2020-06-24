@@ -27,7 +27,7 @@
         "message": "Konto erstellt am:"
     },
     "banEarned": {
-        "message": "$BAN verdient gesamt:"
+        "message": "BAN verdient gesamt:"
     },
     "lastWU": 	{
         "message": "Letzte berechnete Work Unit:"
