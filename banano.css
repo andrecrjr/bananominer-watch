@@ -107,11 +107,10 @@ h3 {
   font-family: "BanAddress";
   font-size: 14px;
 }
-}
 
 /* buttons*/
 
-.banano__input-section {
+section.banano__input-section {
   align-self: center;
   text-align: center;
 }
