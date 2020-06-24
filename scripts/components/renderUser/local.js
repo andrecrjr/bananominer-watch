@@ -1,6 +1,6 @@
 import { updateUserData } from "./updaters.js";
 import { userInput, body } from "../helper/querySelectors.js";
-import { getDataBananoMiner } from "./index.js";
+import { getDataBananoMiner } from "./fetchBananoMiner.js";
 
 export const localRenderData = () =>
   (body.onload = () => {
