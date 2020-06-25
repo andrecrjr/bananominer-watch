@@ -11,6 +11,11 @@
     "default_popup": "banano.html",
     "default_icon": "icon.png"
   },
+  "permissions": [
+      "activeTab",
+      "declarativeContent",
+      "storage"
+    ],
   "content_scripts": [],
   "event_rules": [],
   "offline_enabled": false,
