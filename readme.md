@@ -1,6 +1,6 @@
 # Introduction to BananoMiner Watch V1.2.1
 
-![](./assets/BananoMiner-Watch-DEVTEST_repository-card.png)
+![](./assets/DEVTEST_repository-card-small.png)
 
 BananoMiner Watch is a **Chrome Browser Extension** that shows you all the stats about your contributions to the [www.banano.cc team](https://stats.foldingathome.org/team/234980) at [Folding@home](https://foldingathome.org/) including the amount of $BAN you have already earned using your config from [https://bananominer.com/](https://bananominer.com/).
 
