@@ -7,10 +7,10 @@ export const validationInputAddress = (inputValue) => {
   if (lessValue || noValue) {
     error.classList.add("open");
     if (lessValue) {
-      error.innerHTML = `User ID must be 7 characters.<br>Please try again.`;
+      error.innerHTML = chrome.i18n.getMessage("errShort");
     }
     if (noValue) {
-      error.innerHTML = `Please input User ID`;
+      error.innerHTML = chrome.i18n.getMessage("errEmpty");
     }
     removeUserData();
     return false;

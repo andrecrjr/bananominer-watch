@@ -1,0 +1,50 @@
+{
+    "extDescription": {
+        "message": "BananoMiner Watch menunjukkan kepada Anda semua statistik tentang kontribusi anda ke tim www.banano.cc pada Folding@home termasuk jumlah BAN yang telah anda peroleh menggunakan konfigurasi anda dari https://bananominer.com/."
+    },
+    "findMe": {
+        "message": "Temukan saya!"
+    },
+    "yourUser": {
+        "message": "ID Pengguna Anda:"
+    },
+    "errEmpty": {
+        "message": "Silakan masukkan ID Pengguna"
+    },
+    "errShort": {
+        "message": "ID Pengguna harus 7 karakter. Silakan coba lagi."
+    },
+    "update": {
+        "message": "Memperbarui!"
+    },
+    "lastUpdate": {
+        "message": "Pembaharuan Terakhir:"
+    },
+    "banAdr": {
+        "message": "Alamat BAN:"
+    },
+    "AccCreated": {
+        "message": "Akun dibuat pada:"
+    },
+    "banEarned": {
+        "message": "Total BAN yang dihasilkan:"
+    },
+    "lastWU": {
+        "message": "Satuan Kerja Terakhir yang ditambang:"
+    },
+    "totalWU": {
+        "message": "Total Satuan Kerja:"
+    },
+    "lang": {
+        "message": "Bahasa Indonesia"
+    },
+    "extName": {
+        "message": "BananoMiner Watch"
+    },
+    "langCode": {
+        "message": "id"
+    },
+    "errNotfound": {
+        "message": "ID Pengguna tidak ada. Silakan coba lagi."
+    }
+}
