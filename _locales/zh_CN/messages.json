@@ -1,6 +1,6 @@
 {
   "extDescription": {
-    "message": "BananoMiner Watch 显示有关您对www.banano.cc团队在Folding @ home上的贡献的所有统计信息，包括您已经使用https://bananominer.com/的配置获得的$ BAN金额。"
+    "message": "BananoMiner Watch 显示有关您对www.banano.cc团队在Folding @ home上的贡献的所有统计信息，包括您已经使用https://bananominer.com/的配置获得的 BAN金额。"
   },
   "findMe": {
     "message": "寻找"
@@ -27,7 +27,7 @@
     "message": "帐户创建于："
   },
   "banEarned": {
-    "message": "总共赚取的$ BAN："
+    "message": "总共赚取的 BAN："
   },
   "lastWU": {
     "message": "最后开采的单位：\n"

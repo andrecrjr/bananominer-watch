@@ -1,6 +1,6 @@
 {
     "extDescription": {
-        "message": "BananoMiner Watch menunjukkan kepada Anda semua statistik tentang kontribusi anda ke tim www.banano.cc pada Folding@home termasuk jumlah $BAN yang telah anda peroleh menggunakan konfigurasi anda dari https://bananominer.com/."
+        "message": "BananoMiner Watch menunjukkan kepada Anda semua statistik tentang kontribusi anda ke tim www.banano.cc pada Folding@home termasuk jumlah BAN yang telah anda peroleh menggunakan konfigurasi anda dari https://bananominer.com/."
     },
     "findMe": {
         "message": "Temukan saya!"
@@ -27,7 +27,7 @@
         "message": "Akun dibuat pada:"
     },
     "banEarned": {
-        "message": "Total $BAN yang dihasilkan:"
+        "message": "Total BAN yang dihasilkan:"
     },
     "lastWU": {
         "message": "Satuan Kerja Terakhir yang ditambang:"
