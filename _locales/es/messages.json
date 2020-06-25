@@ -9,7 +9,7 @@
         "message": "Tú ID de Usuario:"
     },
     "errEmpty": {
-        "Please input User ID.": "Por favor ingrese su ID del usuario."
+        "message": "Por favor ingrese su ID del usuario."
     },
     "errShort": {
         "message": "La ID de usuario debe tener 7 caracteres. Inténtalo de nuevo."
@@ -42,7 +42,7 @@
         "message": "BananoMiner Watch"
     },
     "langCode": {
-        "en": "es"
+        "message": "es"
     },
     "errNotfound": {
         "message": "El ID de usuario no existe. Inténtalo de nuevo."
