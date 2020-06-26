@@ -54,7 +54,7 @@ Our sincere thanks go to everyone in the BANANO community who contributed and su
 - MidNightSonne for Brazilian Portuguese
 - YaroslavaWise for Russian
 - Cristalla for Spanish
-- bbedward for reminding the junlge to support 
+- bbedward for reminding the jungle to support 
 
 # Graphic Design support
  - Oops
