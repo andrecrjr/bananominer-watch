@@ -1,0 +1,50 @@
+{
+    "extDescription": {
+        "message": "Mostra-te todos os dados sobre as tuas contribuições e ganhos para a equipa www.banano.cc em Folding@home."
+    },
+    "findMe": {
+        "message": "Encontra-me!"
+    },
+    "yourUser": {
+        "message": "O teu ID de utilizador:"
+    },
+    "errEmpty": {
+        "message": "Por favor insere o teu ID de utilizador:"
+    },
+    "errShort": {
+        "message": "O ID de utilizador deve ser 7 carácteres. Por favor, tenta novamente."
+    },
+    "update": {
+        "message": "Update!"
+    },
+    "lastUpdate": {
+        "message": "Último update:"
+    },
+    "banAdr": {
+        "message": "Endereço BAN:"
+    },
+    "AccCreated": {
+        "message": "Conta criada a:"
+    },
+    "banEarned": {
+        "message": "Total de BAN ganho:"
+    },
+    "lastWU": {
+        "message": "Última Unidade de Trabalho minerada:"
+    },
+    "totalWU": {
+        "message": "Total de Unidades de Trabalho:"
+    },
+    "lang": {
+        "message": "Português"
+    },
+    "extName": {
+        "message": "BananoMiner Watch"
+    },
+    "langCode": {
+        "message": "pt_PT"
+    },
+    "errNotfound": {
+        "message": "Este ID de utilizador não existe. Por favor tente novamente."
+    }
+}

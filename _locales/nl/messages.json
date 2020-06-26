@@ -1,0 +1,50 @@
+{
+    "extDescription": {
+        "message": "Toont alle statistieken over jouw bijdrage aan het www.banano.cc team bij Folding@home, en verdiende Banano."
+    },
+    "findMe": {
+        "message": "Vind mij!"
+    },
+    "yourUser": {
+        "message": "Jouw gebruikers ID:"
+    },
+    "errEmpty": {
+        "message": "Vul a.u.b. je gebruikers ID in"
+    },
+    "errShort": {
+        "message": "Gebruikers ID moet uit 7 karakters bestaan. Probeer het opnieuw."
+    },
+    "update": {
+        "message": "Update!"
+    },
+    "lastUpdate": {
+        "message": "Laatste update:"
+    },
+    "banAdr": {
+        "message": "BAN adres:"
+    },
+    "AccCreated": {
+        "message": "Account gecreëerd op:"
+    },
+    "banEarned": {
+        "message": "Totaal aantal BAN verdiend:"
+    },
+    "lastWU": {
+        "message": "Laatste Work Unit gemined:"
+    },
+    "totalWU": {
+        "message": "Totaal aantal Work Units"
+    },
+    "lang": {
+        "message": "Nederlands"
+    },
+    "extName": {
+        "message": "BananoMiner Watch"
+    },
+    "langCode": {
+        "message": "nl"
+    },
+    "errNotfound": {
+        "message": "Gebruikers ID bestaat niet. Probeer het opnieuw."
+    }
+}
