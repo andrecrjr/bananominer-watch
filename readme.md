@@ -1,4 +1,4 @@
-# Introduction to BananoMiner Watch V1.2.1
+# Introduction to BananoMiner Watch V1.2.1 (soon to be V1.2.1.1)
 
 ![](./assets/mine-intro.png)
 
@@ -6,7 +6,10 @@ BananoMiner Watch is a **Chrome Browser Extension** that shows you all the stats
 
 # How to install?
 
-Version 1.2.1 has been submitted for review and publication in the Google Chrome Extensions catalogue!
+Due to (undocumented and irrational) technical limitations of the Google Chrome Webstore Version 1.2.1 could not be submitted for review and publication in the Google Chrome  Webstore.
+Some minor adaptations will have to be carried out.
+However, the extension is fully functional and available for your test and usage.
+~~Version 1.2.1 has been submitted for review and publication in the Google Chrome  Webstore!~~
 Until it´s available from there you can follow the steps below to use Version 1.2.1 of the extension already today.
 
 *TL;DR Enable developer mode in Chrome Browser -> unzip this package then select the folder by clicking the load unpackaged in your chrome browser (works with brave browser too!)*
@@ -42,7 +45,7 @@ Our sincere thanks go to everyone in the BANANO community who contributed and su
 - AhmedDhaif93 for Arabic
 - Goose for Chinese
 - ATH for Dutch
-- Liberty_Seed for French
+- Liberty_Seed and iazid for French
 - Pramono for Bahasa Indonesia
 - Lore and macaleon for Italian
 - Africa by Toto for Japanese
