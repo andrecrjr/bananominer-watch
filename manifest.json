@@ -12,18 +12,13 @@
   "browser_action": {
     "default_popup": "banano.html",
     "default_icon": {
-	  "16": "icon16.png",
+      "16": "icon16.png",
       "32": "icon32.png"
-   },
-	"default_title": "BananoMiner Watch"
+    },
+    "default_title": "BananoMiner Watch"
   },
-  "permissions": [
-      "activeTab",
-      "declarativeContent",
-      "storage"
-    ],
   "version_name": "1.2.1 Orangutan",
-  "homepage_url": "https://sebrock.github.io/bananominer-watch-DEV_TEST/",	
+  "homepage_url": "https://sebrock.github.io/bananominer-watch-DEV_TEST/",
   "content_scripts": [],
   "event_rules": [],
   "offline_enabled": false,
@@ -32,12 +27,12 @@
   "manifest_version": 2,
   "web_accessible_resources": [
     "*.png",
-	"*.svg",
-	"assets/*.png",
+    "*.svg",
+    "assets/*.png",
     "*.css",
     "fonts/*.ttf",
     "scripts/*.js",
-	"scripts/components/helper/*.js",
-	"scripts/components/renderUser/*.js"
-    ]
+    "scripts/components/helper/*.js",
+    "scripts/components/renderUser/*.js"
+  ]
 }
