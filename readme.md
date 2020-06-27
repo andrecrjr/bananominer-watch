@@ -1,4 +1,4 @@
-# Introduction to BananoMiner Watch V1.2.1 (soon to be V1.2.1.1)
+# Introduction to BananoMiner Watch V1.2.1 RC3 "Orangutan"
 
 ![](./assets/mine-intro.png)
 
@@ -6,10 +6,7 @@ BananoMiner Watch is a **Chrome Browser Extension** that shows you all the stats
 
 # How to install?
 
-Due to (undocumented and irrational) technical limitations of the Google Chrome Webstore Version 1.2.1 could not be submitted for review and publication in the Google Chrome  Webstore.
-Some minor adaptations will have to be carried out.
-However, the extension is fully functional and available for your test and usage.
-~~Version 1.2.1 has been submitted for review and publication in the Google Chrome  Webstore!~~
+Version 1.2.1 RC3 has been submitted for review and publication in the Google Chrome  Webstore!
 Until it´s available from there you can follow the steps below to use Version 1.2.1 of the extension already today.
 
 *TL;DR Enable developer mode in Chrome Browser -> unzip this package then select the folder by clicking the load unpackaged in your chrome browser (works with brave browser too!)*
@@ -22,13 +19,13 @@ Go to [chrome extensions](chrome://extensions) or for [Brave Browser](brave://ex
 Turn on the Developer Mode in the top left corner of the Extensions page in Chrome. 
 
 ## Step 3 Unzip the downloaded release package 
-Unzip to a folder on your HDD. This folder will be the main folder you selct in step 4.
+Unzip to a folder on your HDD. This folder will be the main folder you select in step 4.
 
 ## Step 4 Load the extension into Chrome
 You can now select the extension. That's pretty easy, you go to **load unpackaged**,  select the folder you unzipped to and that´s it!
 
 ## After install - How to use it
-You will now see a Banano Logo In the upper right corner of Chrome, next to the address bar.
+You will now see a Banano Logo in the upper right corner of Chrome, next to the address bar.
 Click on it and you will see the extension window pop up.
 Now it's easy, you enter your 7-character User ID from bananominer and click "Find me!".
 You will now see all the stats about your contributions and your earnings.
