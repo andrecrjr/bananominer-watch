@@ -1,0 +1,50 @@
+{
+    "extDescription": {
+        "message": "Hiển thị tất cả các số liệu thống kê và thu nhập đóng góp Folding @ home của bạn cho nhóm www.banano.cc."
+    },
+    "findMe": {
+        "message": "Mỏ"
+    },
+    "yourUser": {
+        "message": "ID người dùng của bạn:"
+    },
+    "errEmpty": {
+        "message": "Vui lòng nhập ID người dùng"
+    },
+    "errShort": {
+        "message": "ID người dùng phải có 7 ký tự. Vui lòng thử lại."
+    },
+    "update": {
+        "message": "Cập nhật"
+    },
+    "lastUpdate": {
+        "message": "Cập nhật lại"
+    },
+    "banAdr": {
+        "message": "Địa chỉ ví"
+    },
+    "AccCreated": {
+        "message": "Tài khoản được tạo"
+    },
+    "banEarned": {
+        "message": "Tổng số BAN thu được"
+    },
+    "lastWU": {
+        "message": "Đơn vị cuối được tính"
+    },
+    "totalWU": {
+        "message": "Tổng số đơn vị"
+    },
+    "lang": {
+        "message": "Tiếng Việt"
+    },
+    "extName": {
+        "message": "BananoMiner Watch"
+    },
+    "langCode": {
+        "message": "vi"
+    },
+    "errNotfound": {
+        "message": "ID người dùng không tồn tại. Vui lòng thử lại."
+    }
+}
