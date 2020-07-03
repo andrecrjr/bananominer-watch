@@ -4,12 +4,13 @@
 
 BananoMiner Watch is a **Chrome Browser Extension** that shows you all the stats about your contributions to the [www.banano.cc team](https://stats.foldingathome.org/team/234980) at [Folding@home](https://foldingathome.org/) including the amount of $BAN you have already earned using your config from [https://bananominer.com/](https://bananominer.com/).
 
+![](./assets/1.2.1_store.png)
+
 # How to install?
 
-Version 1.2.1 RC3 has been submitted for review and publication in the Google Chrome  Webstore!
-Until it´s available from there you can follow the steps below to use Version 1.2.1 of the extension already today.
+Version 1.2.1 RC3 has been published in the [Google Chrome  Webstore](https://chrome.google.com/webstore/detail/pdnkikfbjfhikkpopfoaihhfbhaplpfc?authuser=0&hl=en), is available for download in all regions, and in 14 different languages.
 
-*TL;DR Enable developer mode in Chrome Browser -> unzip this package then select the folder by clicking the load unpackaged in your chrome browser (works with brave browser too!)*
+# Want to test the latest Development build?
 
 ## Step 1 Download from github
  Download the latest release from [tags in the github](https://github.com/sebrock/bananominer-watch-DEV_TEST/releases) (Download ZIP)
