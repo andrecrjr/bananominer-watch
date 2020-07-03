@@ -1,0 +1,50 @@
+{
+  "extDescription": {
+    "message": "نمایش تمامی آمار مشارکت  folding@home و درامد شما برای تیم www.banano.cc."
+  },
+  "findMe": {
+    "message": "مرا بیاب!"
+  },
+  "yourUser": {
+    "message": "لطفا ID کاربر را وارد نمایید :"
+  },
+  "errEmpty": {
+    "message": "لطفا ID کاربر را وارد نمایید :"
+  },
+  "errShort": {
+    "message": "ID کابرد باید دارای 7 کارکتر باشد . لطفا مجدد سعی کنید "
+  },
+  "update": {
+    "message": "به روز رسانی!"
+  },
+  "lastUpdate": {
+    "message": "اخرین بروزرسانی "
+  },
+  "banAdr": {
+    "message": "ادرس BAN:"
+  },
+  "AccCreated": {
+    "message": "اکانت ساخته شده در تاریخ:"
+  },
+  "banEarned": {
+    "message": "تمامی BANهای بدست آمده:"
+  },
+  "lastWU": {
+    "message": "آخرین واحد کاری استخراج شده:"
+  },
+  "totalWU": {
+    "message": "تعداد کل واحد های استخراج شده:"
+  },
+  "lang": {
+    "message": "فارسی"
+  },
+  "extName": {
+    "message": "BananoMiner Watch"
+  },
+  "langCode": {
+    "message": "fa"
+  },
+  "errNotfound": {
+    "message": "ID کاربر وجود ندارد. لطفا مجدد تلاش نمایید."
+  }
+}

@@ -1,15 +1,16 @@
-import { bananoSection, button, remove } from "../helper/querySelectors.js";
+import { bananoSection, button } from "../helper/querySelectors.js";
 
-export const updateUserData = (legenda = "Update!") => {
+export const updateUserData = (
+  legenda = `${chrome.i18n.getMessage("update")}`
+) => {
   button.innerText = legenda;
   bananoSection.classList.remove("close");
   bananoSection.classList.remove("none");
-  remove.classList.remove("close");
   bananoSection.innerHTML = localStorage.getItem("template");
 };
 
 export const removeUserData = () => {
-  button.innerText = "Find me!";
+  button.innerText = `${chrome.i18n.getMessage("findMe")}`;
   bananoSection.classList.add("close");
   localStorage.clear();
   setTimeout(() => {
@@ -18,5 +19,4 @@ export const removeUserData = () => {
   while (bananoSection.children > 0) {
     bananoSection.removeChild();
   }
-  remove.classList.add("close");
 };

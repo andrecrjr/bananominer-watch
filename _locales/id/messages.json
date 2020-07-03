@@ -1,0 +1,50 @@
+{
+    "extDescription": {
+        "message": "Menampilkan semua statistik kontribusi dan pendapatan Folding@home anda dan untuk tim www.banano.cc."
+    },
+    "findMe": {
+        "message": "Temukan saya!"
+    },
+    "yourUser": {
+        "message": "ID Pengguna Anda:"
+    },
+    "errEmpty": {
+        "message": "Silakan masukkan ID Pengguna"
+    },
+    "errShort": {
+        "message": "ID Pengguna harus 7 karakter. Silakan coba lagi."
+    },
+    "update": {
+        "message": "Memperbarui!"
+    },
+    "lastUpdate": {
+        "message": "Pembaharuan Terakhir:"
+    },
+    "banAdr": {
+        "message": "Alamat BAN:"
+    },
+    "AccCreated": {
+        "message": "Akun dibuat pada:"
+    },
+    "banEarned": {
+        "message": "Total BAN yang dihasilkan:"
+    },
+    "lastWU": {
+        "message": "Satuan Kerja Terakhir yang ditambang:"
+    },
+    "totalWU": {
+        "message": "Total Satuan Kerja:"
+    },
+    "lang": {
+        "message": "Bahasa Indonesia"
+    },
+    "extName": {
+        "message": "BananoMiner Watch"
+    },
+    "langCode": {
+        "message": "id"
+    },
+    "errNotfound": {
+        "message": "ID Pengguna tidak ada. Silakan coba lagi."
+    }
+}

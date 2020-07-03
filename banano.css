@@ -4,7 +4,12 @@
 }
 @font-face {
   font-family: "Banfont";
-  src: url("NeueHansKendrick-Regular.ttf") format("truetype");
+  src: url("./fonts/NeueHansKendrick-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "BanAddress";
+  src: url("./fonts/OverpassMono-Regular.ttf") format("truetype");
 }
 
 body {
@@ -29,7 +34,7 @@ main {
   align-items: center;
   align-content: center;
   justify-content: center;
-  margin: 15px 0;
+  margin: 50px 0;
 }
 
 section.banano__info {
@@ -45,7 +50,6 @@ section.banano__info {
   display: none;
 }
 .banano__title-error.open {
-  font-family: "Banfont";
   display: block;
   text-align: center;
   width: 400px;
@@ -61,6 +65,7 @@ section.banano__info {
   text-align: center;
 }
 .banano__user {
+  position: relative;
   transition: all 400ms;
 }
 .banano__user.close {
@@ -75,13 +80,11 @@ section.banano__info {
 p,
 h2 {
   margin: 5px 0;
-  font-family: "Banfont";
   font-size: 16px;
   color: white;
   display: flex;
   align-items: center;
 }
-
 h2 {
   font-weight: bold;
   color: black;
@@ -91,20 +94,23 @@ h2 {
 
 h1 {
   margin: 10px 0;
-  font-family: "Banfont";
   font-size: 26px;
 }
 
 h3 {
   margin: 5px 0;
-  font-family: "Banfont";
   font-size: 18px;
   color: #fbdd11;
 }
 
+.banano__info--address {
+  font-family: "BanAddress";
+  font-size: 14px;
+}
+
 /* buttons*/
 
-.banano__input-section {
+section.banano__input-section {
   align-self: center;
   text-align: center;
 }
@@ -139,4 +145,19 @@ button.get__banano {
 
 button {
   border: 0;
+}
+
+/* monkey user */
+.monkey__user {
+  position: absolute;
+  display: none;
+  width: 420px;
+  top: -120;
+  right: -100;
+  transition: 400ms opacity ease-in;
+}
+
+.monkey__user.open {
+  display: block;
+  opacity: 1;
 }

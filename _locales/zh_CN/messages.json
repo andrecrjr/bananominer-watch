@@ -1,0 +1,50 @@
+{
+  "extDescription": {
+    "message": "显示您在Folding @ home为www.banano.cc团队的所有贡献统计和收入。"
+  },
+  "findMe": {
+    "message": "寻找"
+  },
+  "yourUser": {
+    "message": "输入用户名："
+  },
+  "errEmpty": {
+    "message": "请输入用户名"
+  },
+  "errShort": {
+    "message": "用户ID必须为7个字符。请再试一遍。"
+  },
+  "update": {
+    "message": "更新！\n"
+  },
+  "lastUpdate": {
+    "message": "最后更新：\n"
+  },
+  "banAdr": {
+    "message": "BAN地址："
+  },
+  "AccCreated": {
+    "message": "帐户创建于："
+  },
+  "banEarned": {
+    "message": "总共赚取的 BAN："
+  },
+  "lastWU": {
+    "message": "最后开采的单位：\n"
+  },
+  "totalWU": {
+    "message": "总工作单位："
+  },
+  "lang": {
+    "message": "英语"
+  },
+  "extName": {
+    "message": "BananoMiner Watch"
+  },
+  "langCode": {
+    "message": "zh_CN"
+  },
+  "errNotfound": {
+    "message": "用户ID不存在。请再试一遍。"
+  }
+}

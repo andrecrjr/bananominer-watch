@@ -1,0 +1,50 @@
+{
+    "extDescription": {
+        "message": "Отображает все ваши статистические данные и доходы от Folding@home для команды www.banano.cc."
+    },
+    "findMe": {
+        "message": "Найди меня!"
+    },
+    "yourUser": {
+        "message": "Ваш ID пользователя:"
+    },
+    "errEmpty": {
+        "message": "Пожалуйста, введите ID пользователя."
+    },
+    "errShort": {
+        "message": "ID пользователя должен быть 7 символов. Пожалуйста, попробуйте еще раз."
+    },
+    "update": {
+        "message": "Обновить!"
+    },
+    "lastUpdate": {
+        "message": "Последнее обновление:"
+    },
+    "banAdr": {
+        "message": "BAN адрес:"
+    },
+    "AccCreated": {
+        "message": "Аккаунт создан:"
+    },
+    "banEarned": {
+        "message": "Всего BAN заработано:"
+    },
+    "lastWU": {
+        "message": "Последняя рабочая единица добыта:"
+    },
+    "totalWU": {
+        "message": "Всего рабочих единиц:"
+    },
+    "lang": {
+        "message": "Pусский"
+    },
+    "extName": {
+        "message": "BananoMiner Watch"
+    },
+    "langCode": {
+        "message": "ru"
+    },
+    "errNotfound": {
+        "message": "ID пользователя не существует. Пожалуйста, попробуйте еще раз."
+    }
+}
