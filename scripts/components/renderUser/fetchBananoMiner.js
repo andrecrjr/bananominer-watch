@@ -1,6 +1,7 @@
 import { userInput, error, button, remove } from "../helper/querySelectors.js";
 import { updateUserData, removeUserData } from "./updaters.js";
 import { validationInputAddress } from "./validationInput.js";
+import { checkYourWus } from "./checkWus.js";
 
 export async function getDataBananoMiner() {
   let user = userInput.value;
@@ -45,6 +46,7 @@ const renderComponent = (data) => {
   let template = ``;
   let totalAmount = 0;
   let datetime = new Date();
+  template += checkYourWus(data[0], data[1]);
   template += `<section class="banano__info"> <h2>${chrome.i18n.getMessage(
     "lastUpdate"
   )}</h2><p> ${
