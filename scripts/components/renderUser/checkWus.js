@@ -7,11 +7,6 @@ export const checkYourWus = (dataBanano, dataFold) => {
 
   //Verify if the next day from the last work unit has payment, AND
   //Verify if the next day from last work unit done is bigger than today
-  //   if(!lastWorkUnit){
-  //     return `<section class="banano__info">
-  //     <p>Your first work unit has not completed</p>
-  //     </section>`;
-  //   }
   if (
     nextDayFromTheLastWorkUnit >= paydayTime &&
     todayAtMidnight <= nextDayFromTheLastWorkUnit &&
