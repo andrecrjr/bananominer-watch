@@ -1,13 +1,21 @@
 export const checkYourWus = (dataBanano, dataFold) => {
   let lastPayDay = dataBanano.payments[0].created_at;
   let lastWorkUnit = dataFold.last;
+  let nextDayFromTheLastWorkUnit = getJumpDate(lastWorkUnit, 1).getTime();
+  let paydayTime = new Date(lastPayDay).getTime();
+  let todayAtMidnight = todayDate().getTime();
 
-  //Verify if the next day from the last work unit has payment, if it's not, check fold@home FALSE
+  //Verify if the next day from the last work unit has payment, AND
   //Verify if the next day from last work unit done is bigger than today
-
+  //   if(!lastWorkUnit){
+  //     return `<section class="banano__info">
+  //     <p>Your first work unit has not completed</p>
+  //     </section>`;
+  //   }
   if (
-    getJumpDate(lastWorkUnit, 1).getTime() >= new Date(lastPayDay).getTime() &&
-    todayDate().getTime() <= getJumpDate(lastWorkUnit, 1)
+    nextDayFromTheLastWorkUnit >= paydayTime &&
+    todayAtMidnight <= nextDayFromTheLastWorkUnit &&
+    lastWorkUnit
   ) {
     return `<section class="banano__info">
     <p>Your work unit has been working normal</p>
