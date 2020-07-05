@@ -48,7 +48,7 @@ Our sincere thanks go to everyone in the BANANO community who contributed and su
 - Lore and macaleon for Italian
 - Africa by Toto for Japanese
 - mina_hanem for Farsi
-- nknown for Potuguese
+- nknown for Portuguese
 - MidNightSonne for Brazilian Portuguese
 - YaroslavaWise for Russian
 - Cristalla for Spanish
