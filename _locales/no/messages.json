@@ -1,0 +1,50 @@
+{
+    "extDescription": {
+        "message": "Viser statistikk over alle dine bidrag til Folding@Home for www.banano.cc-teamet."
+    },
+    "findMe": {
+        "message": "Finn meg!"
+    },
+    "yourUser": {
+        "message": "Din brukerID:"
+    },
+    "errEmpty": {
+        "message": "Vennligst skriv inn din brukerID"
+    },
+    "errShort": {
+        "message": "BrukerID må være 7 tegn. Vennligst prøv igjen."
+    },
+    "update": {
+        "message!": "Oppdatering!"
+    },
+    "lastUpdate": {
+        "Last update:": "Forrige oppdatering:"
+    },
+    "banAdr": {
+        "message": "BAN-adresse:"
+    },
+    "AccCreated": {
+        "message": "Konto laget:"
+    },
+    "banEarned": {
+        "message": "Totalt BAN tjent:"
+    },
+    "lastWU": {
+        "message": "Last Work Unit minet:"
+    },
+    "totalWU": {
+        "message": "Work Units totalt:"
+    },
+    "lang": {
+        "message": "Norsk"
+    },
+    "extName": {
+        "message": "BananoMiner Watch"
+    },
+    "langCode": {
+        "message": "no"
+    },
+    "errNotfound": {
+        "message": "BrukerID eksisterer ikke. Vennligst prøv igjen."
+    }
+}
