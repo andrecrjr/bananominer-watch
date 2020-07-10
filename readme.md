@@ -1,6 +1,15 @@
 # Introduction to BananoMiner Watch V1.2.1 RC3 "Orangutan"
 
-![](./assets/mine-intro.png)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/price/pdnkikfbjfhikkpopfoaihhfbhaplpfc?label=webstore-price&style=plastic)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/users/pdnkikfbjfhikkpopfoaihhfbhaplpfc?label=chrome%20web%20store-users&style=plastic)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/pdnkikfbjfhikkpopfoaihhfbhaplpfc?label=chrome%20web%20store-rating&style=plastic)
+
+![GitHub language count](https://img.shields.io/github/languages/count/sebrock/bananominer-watch-DEV_TEST?style=plastic)
+![GitHub top language](https://img.shields.io/github/languages/top/sebrock/bananominer-watch-DEV_TEST?style=plastic)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/sebrock/bananominer-watch-DEV_TEST?style=plastic)
+![GitHub](https://img.shields.io/github/license/sebrock/bananominer-watch-DEV_TEST?style=plastic)
+
+
 
 BananoMiner Watch is a **Chrome Browser Extension** that shows you all the stats about your contributions to the [www.banano.cc team](https://stats.foldingathome.org/team/234980) at [Folding@home](https://foldingathome.org/) including the amount of $BAN you have already earned using your config from [https://bananominer.com/](https://bananominer.com/).
 
