@@ -28,19 +28,34 @@ body {
 }
 
 main {
-  width: auto;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   align-content: center;
   justify-content: center;
-  margin: 50px 0;
+  margin: 30px 0;
 }
 
 section.banano__info {
   display: flex;
 }
-
+.banano__menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.banano__menu a {
+  text-decoration: none;
+}
+.banano__menu .banano__top {
+  padding-bottom: 5px;
+  margin-right: 25px;
+  border-bottom: solid 2px white;
+}
+.banano__menu p {
+  margin-left: 25px;
+}
 .img--main {
   width: 150px;
   align-self: center;
