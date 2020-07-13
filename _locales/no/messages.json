@@ -15,7 +15,7 @@
         "message": "BrukerID må være 7 tegn. Vennligst prøv igjen."
     },
     "update": {
-        "message": "Oppdatering!"
+        "message": "Oppdater!"
     },
     "lastUpdate": {
         "message": "Forrige oppdatering:"
@@ -36,7 +36,7 @@
         "message": "Work Units totalt:"
     },
     "lang": {
-        "English": "Norsk"
+        "message": "Norsk"
     },
     "extName": {
         "message": "BananoMiner Watch"
