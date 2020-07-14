@@ -141,21 +141,28 @@ section.banano__input-section {
   background: none;
 }
 
-input {
-  border-radius: 15px;
+input.banano__input {
   background: white;
   border: 0;
   height: 25px;
   padding: 3px;
   width: 100px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 button.get__banano {
   height: 26px;
-  border-radius: 15px;
   padding: 5px;
   background-color: #008cba;
   color: white;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.banano__input-section--wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 button {
