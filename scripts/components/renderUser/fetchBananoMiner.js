@@ -82,7 +82,7 @@ const renderComponent = (data) => {
     data[0].payments.forEach((el) => {
       totalAmount += el.amount;
     });
-  template += `<section class="banano__info"><h2>Total PPD:</h2><p>${data[1].teams[0].credit}</p></section> `;
+  template += `<section class="banano__info"><h2>Score:</h2><p>${data[1].teams[0].credit}</p></section> `;
   template += `<section class="banano__info"><h2>${chrome.i18n.getMessage(
     "banEarned"
   )}</h2><p>${totalAmount}</p></section>`;

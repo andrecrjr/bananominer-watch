@@ -13,11 +13,11 @@ export const checkYourWus = (dataBanano, dataFold) => {
     lastWorkUnit
   ) {
     return `<section class="banano__info">
-    <p>Your work unit has been working normal</p>
+    <p>Account Status: active</p>
     </section>`;
   } else {
     return `<section class="banano__info">
-    <p>Whoops has something wrong check if your fold@home is active!</p>
+    <p>It seems your bananominer ID is suspended. Please re-enter your ban_ address on & <a href="http://www.bananominer.com" target="_blank" title="click here to visit">   bananominer.com</a></p>
     </section>`;
   }
 };
