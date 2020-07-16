@@ -17,7 +17,7 @@ export const checkYourWus = (dataBanano, dataFold) => {
     </section>`;
   } else {
     return `<section class="banano__info">
-    <p>It seems your bananominer ID is suspended. Please re-enter your ban_ address on & <a href="http://www.bananominer.com" target="_blank" title="click here to visit">   bananominer.com</a></p>
+    <p>It seems your bananominer ID is suspended. Please re-enter your ban_ address on &nbsp; <a href="http://www.bananominer.com" target="_blank" title="click here to visit">   bananominer.com</a></p>
     </section>`;
   }
 };
