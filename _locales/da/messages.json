@@ -1,0 +1,53 @@
+{
+    "extDescription": {
+        "message": "Vis alle dine Folding@home statistikker og indtjening til www.Banano.cc holdet"
+    },
+    "findMe": {
+        "message": "Find mig!"
+    },
+    "yourUser": {
+        "message": "Dit brugerID"
+    },
+    "errEmpty": {
+        "message": "Indtast venligst dit brugerID"
+    },
+    "errShort": {
+        "message": "Dit brugerID skal være mindst 7 tegn. Prøv venligst igen."
+    },
+    "update": {
+        "message": "Opdater!"
+    },
+    "lastUpdate": {
+        "message": "Sidste opdatering."
+    },
+    "banAdr": {
+        "message": "BAN adresse"
+    },
+    "message": {
+        "Account created on:": "Konto oprettet:"
+    },
+    "banEarned": {
+        "message": "Total BAN optjent"
+    },
+    "lastWU": {
+        "message": "Sidste Work Unit minet:"
+    },
+    "totalWU": {
+        "message": "Total Work Units:"
+    },
+    "lang": {
+        "message": "Dansk"
+    },
+    "extName": {
+        "message": "BananoMiner Watch"
+    },
+    "langCode": {
+        "message": "da"
+    },
+    "errNotfound": {
+        "message": "BrugerID eksisterer ikke. Prøv venligst igen."
+    },
+    "StoreLongDesc": {
+        "message": "BananoMiner Watch er en udvidelse der viser dig alle statistikker over dine bidrag til www.banano.cc-teamet via Folding @ home inklusiv det BAN du allerede har optjent ved hjælp af din konfiguration fra https://bananominer.com/.\nDette er et projekt af BANANO communitiet. Skabt af Banano Jungleaber til Banano Jungleaber.\n\nHvis du gerne vil vide mere om BANANO kryptovalutaen, kan du besøge www.banano.cc\n\nTak til\nVores oprigtige tak til alle i BANANO communitiet, der har bidraget og støttet oprettelsen af denne udvidelse BAN familien er den bedste familie!\n\nOversættelse og korrekturlæsning:\nAhmedDhaif93 til arabisk\nGoose til kinesisk\nATH til hollandsk\nLiberty_Sed og iazid til fransk\nPramono til Bahasa indonesisk\nLore og macaleon til italiensk\nAfrika by Toto til japansk\nmina_hanem til farsi\nnknown til portugisisk\nMidNightSonne til brasiliansk portugisisk\nYaroslavaWise til russisk\nCristalla til spansk\npygo til norsk\nKryptopia til dansk\nbbedward for at minde junglen om at støtte\n\nGrafisk design support\nOops\n\nnøgleord:\nfoldning foldingathome folding @ home krypto kryptovaluta banano\n"
+    }
+}
