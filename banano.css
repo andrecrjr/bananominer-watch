@@ -39,8 +39,6 @@ main {
 
 section.banano__info {
   display: flex;
-  
-  
 }
 .banano__menu {
   width: 100%;
@@ -84,6 +82,7 @@ section.banano__info {
 .banano__user {
   position: relative;
   transition: all 400ms;
+  margin-top: 4px;
 }
 .banano__user.close {
   opacity: 0;
@@ -125,6 +124,17 @@ h3 {
   font-size: 14px;
 }
 
+.banano__info--status::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: greenyellow;
+  align-self: center;
+  margin-right: 8px;
+  margin-top: 1px;
+}
+
 /* buttons*/
 
 section.banano__input-section {
@@ -151,6 +161,22 @@ input.banano__input {
   width: 100px;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
+}
+
+.banano__suspended {
+  position: absolute;
+  background: rgba(228, 225, 41, 0.726);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-top: 1px;
+  border-radius: 15px;
+}
+
+.banano__suspended p {
+  align-items: initial;
+  background: rgb(78, 212, 78);
+  height: 19px;
 }
 
 button.get__banano {

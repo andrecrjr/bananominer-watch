@@ -12,13 +12,18 @@ export const checkYourWus = (dataBanano, dataFold) => {
     todayAtMidnight <= nextDayFromTheLastWorkUnit &&
     lastWorkUnit
   ) {
-    return `<section class="banano__info">
-    <p>Account Status: active</p>
+    return `
+    <section class="banano__info">
+    <p class="banano__info--status">Account Status: active</p>
     </section>`;
   } else {
-    return `<section class="banano__info">
+    return `
+    <section class="banano__suspended">
+    <section class="banano__info">
     <p>It seems your bananominer ID is suspended. Please re-enter your ban_ address on &nbsp; <a href="http://www.bananominer.com" target="_blank" title="click here to visit">   bananominer.com</a></p>
-    </section>`;
+    </section>
+    </section>
+    `;
   }
 };
 
