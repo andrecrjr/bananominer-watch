@@ -1,6 +1,8 @@
 import { userInput, error, button, remove } from "../helper/querySelectors.js";
 import { updateUserData, removeUserData } from "./updaters.js";
 import { validationInputAddress } from "./validationInput.js";
+import { checkYourWus } from "./checkWus.js";
+import { estimateBananos } from "../helper/estimateBan.js";
 
 export async function getDataBananoMiner() {
   let user = userInput.value;
@@ -45,6 +47,9 @@ const renderComponent = (data) => {
   let template = ``;
   let totalAmount = 0;
   let datetime = new Date();
+  data[1].wus > 0
+    ? (template += checkYourWus(data[0], data[1]))
+    : (template += `Waiting for your first Work Unit!`);
   template += `<section class="banano__info"> <h2>${chrome.i18n.getMessage(
     "lastUpdate"
   )}</h2><p> ${
@@ -73,11 +78,11 @@ const renderComponent = (data) => {
     </section>
     `;
 
-  if (data[0].payments) {
+  data[0].payments &&
     data[0].payments.forEach((el) => {
       totalAmount += el.amount;
     });
-  }
+  template += `<section class="banano__info"><h2>Score:</h2><p>${data[1].teams[0].credit}</p></section> `;
   template += `<section class="banano__info"><h2>${chrome.i18n.getMessage(
     "banEarned"
   )}</h2><p>${totalAmount}</p></section>`;
