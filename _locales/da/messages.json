@@ -23,8 +23,8 @@
     "banAdr": {
         "message": "BAN adresse"
     },
-    "AccCreated": {
-        "message": "Konto oprettet:"
+    "message": {
+        "Account created on:": "Konto oprettet:"
     },
     "banEarned": {
         "message": "Total BAN optjent"
