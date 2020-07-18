@@ -1,4 +1,4 @@
-# Introduction to BananoMiner Watch V1.3.0 "Bonobo"
+# Introduction to BananoMiner Watch V1.3.1 "Bonobo"
 
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/users/pdnkikfbjfhikkpopfoaihhfbhaplpfc?label=chrome%20web%20store-users&style=plastic)
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/pdnkikfbjfhikkpopfoaihhfbhaplpfc?label=chrome%20web%20store-rating&style=plastic)
@@ -14,7 +14,7 @@ BananoMiner Watch is a **Chrome Browser Extension** that shows you all stats abo
 
 ![](./assets/store.png)
 
-Version 1.3.0 "Bonobo" has been published in the [Google Chrome  Webstore](https://chrome.google.com/webstore/detail/pdnkikfbjfhikkpopfoaihhfbhaplpfc?authuser=0&hl=en), is available for download in all regions, and in 18 different languages(locale identifiers in brackets):
+Version 1.3.1 "Bonobo" has been published in the [Google Chrome  Webstore](https://chrome.google.com/webstore/detail/pdnkikfbjfhikkpopfoaihhfbhaplpfc?authuser=0&hl=en), is available for download in all regions, and in 18 different languages(locale identifiers in brackets):
   -  Arabic (ar)
   -  Danish (da)
   -  German (de)

@@ -1,5 +1,5 @@
 # Bananominer-Watch Changelog 
-## V1.3.0
+## V1.3.1 Bonobo
 
 
 - Added 5 languages (locale identifiers in brackets):
