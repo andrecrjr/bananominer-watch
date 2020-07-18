@@ -28,46 +28,19 @@ body {
 }
 
 main {
-  width: 100%;
+  width: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   align-content: center;
   justify-content: center;
-  margin: 30px 0;
+  margin: 50px 0;
 }
 
 section.banano__info {
   display: flex;
 }
-.banano__menu {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  position: relative;
-}
-.banano__menu a {
-  text-decoration: none;
-}
-.banano__menu .banano__top {
-  padding-bottom: 5px;
-  margin-right: 25px;
-  border-bottom: solid 2px white;
-}
-/*tooltip*/
-.tooltip {
-  opacity: 0;
-  position: absolute;
-  bottom: -18;
-  transition: all 300ms linear;
-}
 
-.banano__top:hover .tooltip {
-  opacity: 1;
-}
-.banano__menu p {
-  margin-left: 25px;
-}
 .img--main {
   width: 150px;
   align-self: center;
@@ -94,7 +67,6 @@ section.banano__info {
 .banano__user {
   position: relative;
   transition: all 400ms;
-  margin-top: 4px;
 }
 .banano__user.close {
   opacity: 0;
@@ -136,17 +108,6 @@ h3 {
   font-size: 14px;
 }
 
-.banano__info--status::before {
-  content: "";
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-  background: greenyellow;
-  align-self: center;
-  margin-right: 8px;
-  margin-top: 1px;
-}
-
 /* buttons*/
 
 section.banano__input-section {
@@ -165,45 +126,21 @@ section.banano__input-section {
   background: none;
 }
 
-input.banano__input {
+input {
+  border-radius: 15px;
   background: white;
   border: 0;
   height: 25px;
   padding: 3px;
   width: 100px;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-}
-
-.banano__suspended {
-  position: absolute;
-  background: rgba(204, 201, 35, 0.8);
-  height: 88%;
-  display: flex;
-  align-items: center;
-  margin-top: 1px;
-  border-radius: 15px;
-  border: 2px solid red;
-}
-
-.banano__suspended p {
-  align-items: initial;
-  background: rgb(78, 212, 78);
-  height: 19px;
 }
 
 button.get__banano {
   height: 26px;
+  border-radius: 15px;
   padding: 5px;
   background-color: #008cba;
   color: white;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-}
-
-.banano__input-section--wrapper {
-  display: flex;
-  justify-content: center;
 }
 
 button {
