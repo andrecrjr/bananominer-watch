@@ -1,4 +1,4 @@
-# Introduction to BananoMiner Watch V1.3.0 RC3 "Bonobo"
+# Introduction to BananoMiner Watch V1.3.0 "Bonobo"
 
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/users/pdnkikfbjfhikkpopfoaihhfbhaplpfc?label=chrome%20web%20store-users&style=plastic)
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/pdnkikfbjfhikkpopfoaihhfbhaplpfc?label=chrome%20web%20store-rating&style=plastic)
