@@ -165,12 +165,13 @@ input.banano__input {
 
 .banano__suspended {
   position: absolute;
-  background: rgba(228, 225, 41, 0.726);
-  height: 100%;
+  background: rgba(204, 201, 35, 0.8);
+  height: 88%;
   display: flex;
   align-items: center;
   margin-top: 1px;
   border-radius: 15px;
+  border: 2px solid red;
 }
 
 .banano__suspended p {
