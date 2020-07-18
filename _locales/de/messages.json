@@ -32,7 +32,7 @@
     "lastWU": 	{
         "message": "Letzte berechnete Work Unit:"
     },
-    "totalWU":  {
+    "totalBan":  {
         "message": "Work Units gesamt:"
     },
     "lang": {
