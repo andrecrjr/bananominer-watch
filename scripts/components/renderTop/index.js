@@ -3,9 +3,16 @@ import { estimateBananos } from "../helper/estimateBan.js";
 
 export const renderTop = () => {
   banMenu.innerHTML += `
-    <p>Team: 234980 - www.banano.cc</p>
-    <a href="https://ban.family/fah" target="_blank" style="padding-top:3px;"><p class="banano__top">1000 PPD ≈ BAN ${estimateBananos(
+    <a href="https://stats.foldingathome.org/team/234980" target="_blank" title="Show team stats on foldingathome.org" style="padding-top:3px;">
+    <p class="banano__top team">Team: 234980 - www.banano.cc     <span class="tooltip">Show team stats on foldingathome.org</span></p>
+
+    </a>
+    <a href="https://ban.family/fah" title="Go to PPD-BAN calculator" target="_blank" style="padding-top:3px;"><p class="banano__top">1000 PPD ≈ BAN ${estimateBananos(
       1000
-    )}</p></a>
+    )}
+    <span class="tooltip" style="padding-right:10px;bottom:-20;right: 15;">Go to PPD-BAN calculator</span>
+    
+    </p>
+    </a>
     `;
 };

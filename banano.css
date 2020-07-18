@@ -44,6 +44,7 @@ section.banano__info {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 .banano__menu a {
   text-decoration: none;
@@ -52,6 +53,17 @@ section.banano__info {
   padding-bottom: 5px;
   margin-right: 25px;
   border-bottom: solid 2px white;
+}
+/*tooltip*/
+.tooltip {
+  opacity: 0;
+  position: absolute;
+  bottom: -18;
+  transition: all 300ms linear;
+}
+
+.banano__top:hover .tooltip {
+  opacity: 1;
 }
 .banano__menu p {
   margin-left: 25px;
