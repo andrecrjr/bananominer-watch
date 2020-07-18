@@ -92,8 +92,9 @@ Our sincere thanks go to everyone in the BANANO community who contributed and su
 *That's it guys. If you need to talk with us you can find André on [twitter](https://twitter.com/andrecrjr) and both of us [andrecrjr](https://discordapp.com/users/2731
 ) and sebrock [sebrock|42 세브로크-마흔 둘](https://discordapp.com/users/4242) on the [Banano Discord Server](https://chat.banano.cc/).
 
-Feel free to open Issues or improvents to the code in [https://github.com/sebrock/bananominer-watch-DEV_TEST/](https://github.com/sebrock/bananominer-watch-DEV_TEST/)(to a separate branch and create PRs towards the DEV_TEST master.)
+# Contribution Guide
+Feel free to open Issues or improvents to the code in [https://github.com/sebrock/bananominer-watch-DEV_TEST/](https://github.com/sebrock/bananominer-watch-DEV_TEST/) (to a separate branch and create PRs towards the DEV_TEST master.)
 
-![](./assets/DEVTEST_repository-card-small.png)
+![https://github.com/sebrock/bananominer-watch-DEV_TEST/](./assets/DEVTEST_repository-card-small.png)
 
 Made with 🧡 and potassium 🍌 in Brazil, Germany, and the BANANO Jungle.
