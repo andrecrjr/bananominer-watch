@@ -1,6 +1,5 @@
-# Introduction to BananoMiner Watch V1.2.1 RC3 "Orangutan"
+# Introduction to BananoMiner Watch V1.3.0 RC3 "Bonobo"
 
-![Chrome Web Store](https://img.shields.io/chrome-web-store/price/pdnkikfbjfhikkpopfoaihhfbhaplpfc?label=webstore-price&style=plastic)
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/users/pdnkikfbjfhikkpopfoaihhfbhaplpfc?label=chrome%20web%20store-users&style=plastic)
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/pdnkikfbjfhikkpopfoaihhfbhaplpfc?label=chrome%20web%20store-rating&style=plastic)
 
@@ -15,14 +14,33 @@ BananoMiner Watch is a **Chrome Browser Extension** that shows you all the stats
 
 # How to install?
 
-Version 1.2.1 RC3 has been published in the [Google Chrome  Webstore](https://chrome.google.com/webstore/detail/pdnkikfbjfhikkpopfoaihhfbhaplpfc?authuser=0&hl=en), is available for download in all regions, and in 14 different languages.
+![](./assets/store.png)
 
-![](./assets/1.2.1_store.png)
+Version 1.3.0 "Bonobo" has been published in the [Google Chrome  Webstore](https://chrome.google.com/webstore/detail/pdnkikfbjfhikkpopfoaihhfbhaplpfc?authuser=0&hl=en), is available for download in all regions, and in 18 different languages(locale identifiers in brackets):
+  -  Arabic (ar)
+  -  Danish (da)
+  -  German (de)
+  -  English - default (en)
+  -  Spanish (es)
+  -  Latin Amrican Spanish (es_419)
+  -  Persian (fa)
+  -  French (fr)
+  -  Hindi (hi)
+  -  Bahasa Indonesia (id)
+  -  Italian (it)
+  -  Japanese (ja)
+  -  Dutch (nl)
+  -  Norwegian (no)
+  -  Brazilian Portuguese (pt_BR)
+  -  Portuguese (pt_PT)
+  -  Russian (ru)
+  -  Vietnamese (vt)
+  -  Chinese - Mandarin (zh_CN)
 
 # Want to test the latest Development build?
 
 ## Step 1 Download from github
- Download the latest release from [tags in the github](https://github.com/sebrock/bananominer-watch-DEV_TEST/releases) (Download ZIP)
+ Download the latest dev build from [tags in github](https://github.com/sebrock/bananominer-watch-DEV_TEST/releases) (Download ZIP)
 
 ## Step 2 Enable Developer Mode in Chrome
 Go to [chrome extensions](chrome://extensions) or for [Brave Browser](brave://extensions).
@@ -49,19 +67,26 @@ To update your stats just click update.
 Our sincere thanks go to everyone in the BANANO community who contributed and supported in the making of this. BAN fam - best fam! 💛
 
 # Translation and Proofreading
+
 - AhmedDhaif93 for Arabic
 - Goose for Chinese
+- Kryptnonite for Danish
 - ATH for Dutch
 - Liberty_Seed and iazid for French
+- sebrock for Germany
+- Skittish for Hindi
 - Pramono for Bahasa Indonesia
 - Lore and macaleon for Italian
 - Africa by Toto for Japanese
 - mina_hanem for Farsi
 - nknown for Portuguese
-- MidNightSonne for Brazilian Portuguese
-- YaroslavaWise for Russian
+- pygo for Norwegian
+- MidNightSonne and andrecrjr or Brazilian Portuguese
+- YaroslavaWise and Nomina for Russian
 - Cristalla for Spanish
-- bbedward for reminding the jungle to support 
+- Tahadorukk | Guns'NRoses
+- Tu Hoang for Vietnamese
+- bbedward for reminding the jungle to support
 
 # Graphic Design support
  - Oops
@@ -69,7 +94,7 @@ Our sincere thanks go to everyone in the BANANO community who contributed and su
 *That's it guys. If you need to talk with us you can find André on [twitter](https://twitter.com/andrecrjr) and both of us [andrecrjr](https://discordapp.com/users/2731
 ) and sebrock [sebrock|42 세브로크-마흔 둘](https://discordapp.com/users/4242) on the [Banano Discord Server](https://chat.banano.cc/).
 
-Feel free to open Issues or improvents to the code (to a separate branch and create PRs towards the DEV_TEST master.
+Feel free to open Issues or improvents to the code in [https://github.com/sebrock/bananominer-watch-DEV_TEST/](https://github.com/sebrock/bananominer-watch-DEV_TEST/)(to a separate branch and create PRs towards the DEV_TEST master.)
 
 ![](./assets/DEVTEST_repository-card-small.png)
 
