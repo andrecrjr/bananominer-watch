@@ -15,10 +15,10 @@
         "message": "BrukerID må være 7 tegn. Vennligst prøv igjen."
     },
     "update": {
-        "message!": "Oppdatering!"
+        "message": "Oppdater!"
     },
     "lastUpdate": {
-        "Last update:": "Forrige oppdatering:"
+        "message": "Forrige oppdatering:"
     },
     "banAdr": {
         "message": "BAN-adresse:"
@@ -30,7 +30,7 @@
         "message": "Totalt BAN tjent:"
     },
     "lastWU": {
-        "message": "Last Work Unit minet:"
+        "message": "Siste Work Unit minet:"
     },
     "totalWU": {
         "message": "Work Units totalt:"
@@ -46,5 +46,8 @@
     },
     "errNotfound": {
         "message": "BrukerID eksisterer ikke. Vennligst prøv igjen."
+    },
+    "StoreLongDesc": {
+        "message": "BananoMiner Watch er en utvidelse som viser deg all statistikk over dine bidrag til www.banano.cc-teamet på Folding@home, samt antall $BAN du allerede har tjent ved å bruke konfigurasjonen din fra https://bananominer.com/.\nDette er et BANANO community prosjekt. Laget av Banano Jungle Monkeys for Banano Jungle Monkeys.\n\nVennligst besøk www.banano.cc dersom du ønsker å vite mer om kryptovalutaen BANANO.\n\nBidragsytere\nTusen takk til alle i BANANO-samfunnet som er med og bidrar og støtter dette prosjektet. BAN fam - best fam! 💛\n\nOversettelse og korrekturlesing:\nAhmedDhaif93 for arabisk\nGoose for kinesisk\nATH for nederlandsk\nLiberty_Seed og iazid for fransk\nPramono for indonesisk\nLore og macaleon for italiensk\nAfrica by Toto for japansk\nmina_hanem for farsi\nnknown for portugisisk\nMidNightSonne for brasiliansk portugisisk\nYaroslavaWise for russisk\nCristalla for spansk\npygo for norsk\nTahadorukk | Guns'NRoses for tyrkisk\nSkittish for hindi\nbbedward for å få med seg jungelen til å bidra\n\nGrafisk design-støtte\nOops\n\nNøkkelord:\nfolding foldingathome folding@home crypto cryptocurrency banano kryptovaluta krypto"
     }
 }
