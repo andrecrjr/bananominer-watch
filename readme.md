@@ -12,7 +12,7 @@ BananoMiner Watch is a **Chrome Browser Extension** that shows you all stats abo
 
 # How to install?
 
-![](./assets/store.png)
+![](./assets/BananoMiner-Watch_1.3.1_store1.png)
 
 Version 1.3.1 "Bonobo" has been published in the [Google Chrome  Webstore](https://chrome.google.com/webstore/detail/pdnkikfbjfhikkpopfoaihhfbhaplpfc?authuser=0&hl=en), is available for download in all regions, and in 18 different languages(locale identifiers in brackets):
   -  Arabic (ar)
@@ -59,7 +59,7 @@ Bonus feature: move your mouse over your BAN address and you will see the MonKey
 To update your stats just click update.
 
 
-![](./assets/inside-amount.png)
+![](./assets/BananoMiner-Watch_1.3.1.png)
 
 ## Credits
 Our sincere thanks go to everyone in the BANANO community who contributed and supported in the making of this. BAN fam - best fam! 💛
