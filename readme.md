@@ -73,7 +73,7 @@ Our sincere thanks go to everyone in the BANANO community who contributed and su
 
 - AhmedDhaif93 for Arabic
 - Goose for Chinese
-- Kryptnonite for Danish
+- Kryptopia for Danish
 - ATH for Dutch
 - Liberty_Seed and iazid for French
 - sebrock for German
@@ -94,11 +94,15 @@ Our sincere thanks go to everyone in the BANANO community who contributed and su
 # Graphic Design support
  - Oops
 
-*That's it guys. If you need to talk with us you can find André on [twitter](https://twitter.com/andrecrjr) and both of us [andrecrjr](https://discordapp.com/users/2731
-) and sebrock [sebrock|42 세브로크-마흔 둘](https://discordapp.com/users/4242) on the [Banano Discord Server](https://chat.banano.cc/).
+*That's it guys. If you need to talk to us you can find us on Twitter:
+- [André´s twitter](https://twitter.com/andrecrjr)
+- [sebrock´s twitter](https://twitter.com/sebrock)
+- or both of us on the [Banano Discord Server](https://chat.banano.cc/)
+andrecrjr / sebrock|42 세브로크-마흔 둘
 
 # Contribution Guide
-Feel free to open Issues or improvents to the code in [https://github.com/sebrock/bananominer-watch-DEV_TEST/](https://github.com/sebrock/bananominer-watch-DEV_TEST/) (to a separate branch and create PRs towards the DEV_TEST master.)
+Feel free to open Issues for bugs, feature requests, improvents to the code in [https://github.com/sebrock/bananominer-watch-DEV_TEST/](https://github.com/sebrock/bananominer-watch-DEV_TEST/).
+Please commit to a separate branch and create PRs towards the DEV_TEST master.
 
 ![https://github.com/sebrock/bananominer-watch-DEV_TEST/](./assets/DEVTEST_repository-card-small.png)
 
