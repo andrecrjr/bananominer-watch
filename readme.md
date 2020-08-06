@@ -5,6 +5,7 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/sebrock/bananominer-watch-DEV_TEST?style=plastic)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/sebrock/bananominer-watch-DEV_TEST?style=plastic)
 ![GitHub](https://img.shields.io/github/license/sebrock/bananominer-watch-DEV_TEST?style=plastic)
+[![Discord](https://img.shields.io/badge/discord-join%20chat-orange.svg)](https://chat.banano.cc/)
 
 ![](./assets/BananoMiner-Watch_1.3.1_screen1.png)
 
