@@ -16,3 +16,10 @@ Extension now checks for this and warns user if that is the case.
 
 - Results screen now shows Team number and provides a link to the team stats on foldingathome.org
 - Results screen now provides a link to PPD-BAN calculator at https://ban.family/fah
+
+## V1.3.2
+
+- Added Greek language (locale: el)
+- Fixed an error that prevented Vietnamese locale to show
+- Edited account inactivity warning to be understood better.
+
