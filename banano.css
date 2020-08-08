@@ -37,9 +37,6 @@ main {
   margin: 30px 0;
 }
 
-section.banano__info {
-  display: flex;
-}
 .banano__menu {
   width: 100%;
   display: flex;
@@ -184,12 +181,22 @@ input.banano__input {
   margin-top: 1px;
   border-radius: 15px;
   border: 2px solid red;
+  width: 100%;
 }
-
-.banano__suspended p {
-  align-items: initial;
-  background: rgb(78, 212, 78);
-  height: 19px;
+.banano__info {
+  display: flex;
+}
+.banano__suspended--info {
+  display: inherit;
+  background: #4dc44d;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 5px;
+}
+.banano__suspended--info p {
+  display: initial;
+  text-align: center;
 }
 
 button.get__banano {
