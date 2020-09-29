@@ -93,7 +93,7 @@ const renderComponent = (data) => {
     "totalWU"
   )}</h2><p>${data[1].wus}</p></section>`;
   template += `<img class="monkey__user" 
-  src="https://bananomonkeys.herokuapp.com/image?address=${data[0].user.name}" 
+  src="https://monkey.banano.cc/api/v1/monkey/${data[0].user.name}" 
   title="monKey for ban_XXX"/>
   <button class="remove">
     <img src="./assets/trash.png" width="25" />
