@@ -1,4 +1,4 @@
-# Introduction to BananoMiner Watch V1.3.2 
+# Introduction to BananoMiner Watch V1.3.2 Píthikos
 
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/users/pdnkikfbjfhikkpopfoaihhfbhaplpfc?label=chrome%20web%20store-users&style=plastic)
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/pdnkikfbjfhikkpopfoaihhfbhaplpfc?label=chrome%20web%20store-rating&style=plastic)
@@ -16,7 +16,7 @@ BananoMiner Watch is a **Chrome Browser Extension** that shows you all stats abo
 ![](./assets/BananoMiner-Watch_1.3.1_store1.png)
 
 
-Version 1.3.2 has been published in the [Google Chrome  Webstore](https://chrome.google.com/webstore/detail/pdnkikfbjfhikkpopfoaihhfbhaplpfc?authuser=0&hl=en), is available for download in all regions, and in 19 different languages covering 21 locales (locale identifiers in brackets):
+Version 1.3.2 V1.3.2 Píthikos has been published in the [Google Chrome  Webstore](https://chrome.google.com/webstore/detail/pdnkikfbjfhikkpopfoaihhfbhaplpfc?authuser=0&hl=en), is available for download in all regions, and in 19 different languages covering 21 locales (locale identifiers in brackets):
 
   -  Arabic (ar)
   -  Danish (da)
