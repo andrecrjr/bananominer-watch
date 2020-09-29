@@ -1,10 +1,11 @@
-# Introduction to BananoMiner Watch V1.3.1 "Bonobo"
+# Introduction to BananoMiner Watch V1.3.2 Píthikos
 
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/users/pdnkikfbjfhikkpopfoaihhfbhaplpfc?label=chrome%20web%20store-users&style=plastic)
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/pdnkikfbjfhikkpopfoaihhfbhaplpfc?label=chrome%20web%20store-rating&style=plastic)
 ![GitHub top language](https://img.shields.io/github/languages/top/sebrock/bananominer-watch-DEV_TEST?style=plastic)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/sebrock/bananominer-watch-DEV_TEST?style=plastic)
 ![GitHub](https://img.shields.io/github/license/sebrock/bananominer-watch-DEV_TEST?style=plastic)
+[![Discord](https://img.shields.io/badge/discord-join%20chat-orange.svg)](https://chat.banano.cc/)
 
 ![](./assets/BananoMiner-Watch_1.3.1_screen1.png)
 
@@ -14,11 +15,11 @@ BananoMiner Watch is a **Chrome Browser Extension** that shows you all stats abo
 
 ![](./assets/BananoMiner-Watch_1.3.1_store1.png)
 
-Version 1.3.1 "Bonobo" has been published in the [Google Chrome  Webstore](https://chrome.google.com/webstore/detail/pdnkikfbjfhikkpopfoaihhfbhaplpfc?authuser=0&hl=en), is available for download in all regions, and in 18 different languages (locale identifiers in brackets):
-
+Version 1.3.2 V1.3.2 Píthikos has been published in the [Google Chrome  Webstore](https://chrome.google.com/webstore/detail/pdnkikfbjfhikkpopfoaihhfbhaplpfc?authuser=0&hl=en), is available for download in all regions, and in 19 different languages covering 21 locales (locale identifiers in brackets):
   -  Arabic (ar)
   -  Danish (da)
   -  German (de)
+  -  Greek (el)
   -  English - default (en)
   -  Spanish (es)
   -  Latin Amrican Spanish (es_419)
@@ -72,10 +73,11 @@ Our sincere thanks go to everyone in the BANANO community who contributed and su
 
 - AhmedDhaif93 for Arabic
 - Goose for Chinese
-- Kryptnonite for Danish
+- Kryptopia for Danish
 - ATH for Dutch
 - Liberty_Seed and iazid for French
 - sebrock for German
+- Demetrius for Greek
 - Skittish for Hindi
 - Pramono for Bahasa Indonesia
 - Lore and macaleon for Italian
@@ -93,11 +95,15 @@ Our sincere thanks go to everyone in the BANANO community who contributed and su
 # Graphic Design support
  - Oops
 
-*That's it guys. If you need to talk with us you can find André on [twitter](https://twitter.com/andrecrjr) and both of us [andrecrjr](https://discordapp.com/users/2731
-) and sebrock [sebrock|42 세브로크-마흔 둘](https://discordapp.com/users/4242) on the [Banano Discord Server](https://chat.banano.cc/).
+*That's it guys. If you need to talk to us you can find us on Twitter:
+- [André´s twitter](https://twitter.com/andrecrjr)
+- [sebrock´s twitter](https://twitter.com/sebrock)
+- or both of us on the [Banano Discord Server](https://chat.banano.cc/)
+andrecrjr / sebrock|42 세브로크-마흔 둘
 
 # Contribution Guide
-Feel free to open Issues or improvents to the code in [https://github.com/sebrock/bananominer-watch-DEV_TEST/](https://github.com/sebrock/bananominer-watch-DEV_TEST/) (to a separate branch and create PRs towards the DEV_TEST master.)
+Feel free to open Issues for bugs, feature requests, improvents to the code in [https://github.com/sebrock/bananominer-watch-DEV_TEST/](https://github.com/sebrock/bananominer-watch-DEV_TEST/).
+Please commit to a separate branch and create PRs towards the DEV_TEST master.
 
 ![https://github.com/sebrock/bananominer-watch-DEV_TEST/](./assets/DEVTEST_repository-card-small.png)
 
