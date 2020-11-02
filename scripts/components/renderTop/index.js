@@ -7,10 +7,11 @@ export const renderTop = () => {
     <p class="banano__top team">Team: 234980 - www.banano.cc     <span class="tooltip">Show team stats on foldingathome.org</span></p>
 
     </a>
-    <a href="https://ban.family/fah" title="Go to PPD-BAN calculator" target="_blank" style="padding-top:3px;"><p class="banano__top">1000 PPD ≈ BAN ${estimateBananos(
-      1000
-    )}
-    <span class="tooltip" style="padding-right:10px;bottom:-20;right: 15;">Go to PPD-BAN calculator</span>
+    <a href="https://ban.family/fah" title="Go to PPD-BAN estimation tool" target="_blank" style="padding-top:3px;"><p class="banano__top">PPD-BAN estimation tool
+//	1000 PPD ≈ BAN ${estimateBananos(
+//      1000
+//    )}
+    <span class="tooltip" style="padding-right:10px;bottom:-20;right: 15;">Go to PPD-BAN estimation tool</span>
     
     </p>
     </a>
