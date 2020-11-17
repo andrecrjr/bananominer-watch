@@ -8,6 +8,7 @@
 [![Discord](https://img.shields.io/badge/discord-join%20chat-orange.svg)](https://chat.banano.cc/)
 
 ![](./assets/BananoMiner-Watch_screen1_1.3.3.png)
+
 (pictured: German version)
 
 
@@ -64,6 +65,7 @@ Bonus feature: move your mouse over your BAN address and you will see the MonKey
 To update your stats just click update.
 
 ![](./assets/BananoMiner-Watch_result_1.3.3.png)
+
 (pictured: German version)
 
 ## Changelog
