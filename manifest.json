@@ -1,6 +1,6 @@
 {
   "name": "__MSG_extName__",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "__MSG_extDescription__",
   "default_locale": "en",
   "icons": {
@@ -17,7 +17,7 @@
     },
     "default_title": "BananoMiner Watch"
   },
-  "version_name": "V1.3.2 Píthikos",
+  "version_name": "V1.3.3 мајмун",
   "homepage_url": "https://github.com/andrecrjr/bananominer-watch",
   "content_scripts": [],
   "event_rules": [],

@@ -1,0 +1,50 @@
+{
+  "extDescription": {
+    "message": "Displays all your Folding@home contribution stats and earnings for the www.banano.cc team."
+  },
+  "findMe": {
+    "message": "Find me!"
+  },
+  "yourUser": {
+    "message": "Your User ID:"
+  },
+  "errEmpty": {
+    "message": "Please input User ID."
+  },
+  "errShort": {
+    "message": "User ID must be 7 characters. Please try again."
+  },
+  "update": {
+    "message": "Update!"
+  },
+  "lastUpdate": {
+    "message": "Last update:"
+  },
+  "banAdr": {
+    "message": "BAN address:"
+  },
+  "AccCreated": {
+    "message": "Account created on:"
+  },
+  "banEarned": {
+    "message": "Total BAN earned:"
+  },
+  "lastWU": {
+    "message": "Last Work Unit mined:"
+  },
+  "totalWU": {
+    "message": "Total Work Units:"
+  },
+  "lang": {
+    "message": "English"
+  },
+  "extName": {
+    "message": "BananoMiner Watch"
+  },
+  "langCode": {
+    "message": "en"
+  },
+  "errNotfound": {
+    "message": "User ID doesn´t exist. Please try again."
+  }
+}

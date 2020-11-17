@@ -1,9 +1,16 @@
-# Bananominer-Watch Changelog 
-## V1.3.2
+# Bananominer-Watch Changelog
+
+## V1.3.3 мајмун
+
+- Added Serbian language (locale: sr)
+- Removed estimate and just link to PPD-BAN estimation tool
+
+## V1.3.2 Píthikos
 
 - Added Greek language (locale: el)
 - Fixed an error that prevented Vietnamese locale to show
 - Edited account inactivity warning to be understood better.
+- Updated MonKey rendering as per End-of-July update
 
 
 ## V1.3.1 Bonobo

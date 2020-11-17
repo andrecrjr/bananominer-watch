@@ -1,4 +1,4 @@
-# Introduction to BananoMiner Watch V1.3.2 Píthikos
+# Introduction to BananoMiner Watch V1.3.3 мајмун
 
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/users/pdnkikfbjfhikkpopfoaihhfbhaplpfc?label=chrome%20web%20store-users&style=plastic)
 ![Chrome Web Store](https://img.shields.io/chrome-web-store/rating/pdnkikfbjfhikkpopfoaihhfbhaplpfc?label=chrome%20web%20store-rating&style=plastic)
@@ -7,21 +7,26 @@
 ![GitHub](https://img.shields.io/github/license/sebrock/bananominer-watch-DEV_TEST?style=plastic)
 [![Discord](https://img.shields.io/badge/discord-join%20chat-orange.svg)](https://chat.banano.cc/)
 
-![](./assets/BananoMiner-Watch_1.3.1_screen1.png)
+![](./assets/BananoMiner-Watch_screen1_1.3.3.png)
+
+(pictured: German version)
+
 
 BananoMiner Watch is a **Chrome Browser Extension** that shows you all stats about your contributions to the [www.banano.cc team](https://stats.foldingathome.org/team/234980) at [Folding@home](https://foldingathome.org/) including the amount of $BAN you have already earned using your config from [https://bananominer.com/](https://bananominer.com/).
+If you want to learn more about how the Banano community is providing a valuable contribution to medical research you can check out [this article](https://www.publish0x.com/banano/heres-how-you-can-help-fight-coronavirus-and-youll-even-get-xmvdpq?a=QJ0dNjvdLO)
 
 # How to install?
 
-![](./assets/BananoMiner-Watch_1.3.1_store1.png)
+![](./assets/BananoMiner-Watch_store_1.3.3_313.png)
 
-Version 1.3.2 V1.3.2 Píthikos has been published in the [Google Chrome  Webstore](https://chrome.google.com/webstore/detail/pdnkikfbjfhikkpopfoaihhfbhaplpfc?authuser=0&hl=en), is available for download in all regions, and in 19 different languages covering 21 locales (locale identifiers in brackets):
+Version V1.3.3 мајмун has been published in the [Google Chrome  Webstore](https://chrome.google.com/webstore/detail/pdnkikfbjfhikkpopfoaihhfbhaplpfc?authuser=0&hl=en), is available for download in all regions, and in 20 different languages covering 21 locales (locale identifiers in brackets):
   -  Arabic (ar)
   -  Danish (da)
   -  German (de)
   -  Greek (el)
   -  English - default (en)
   -  Spanish (es)
+  -  **NEW - Serbian (sr) - NEW**
   -  Latin Amrican Spanish (es_419)
   -  Persian (fa)
   -  French (fr)
@@ -60,7 +65,9 @@ You will now see all the stats about your contributions and your earnings.
 Bonus feature: move your mouse over your BAN address and you will see the MonKey for your address!
 To update your stats just click update.
 
-![](./assets/BananoMiner-Watch_1.3.1.png)
+![](./assets/BananoMiner-Watch_result_1.3.3.png)
+
+(pictured: German version)
 
 ## Changelog
 
@@ -87,6 +94,7 @@ Our sincere thanks go to everyone in the BANANO community who contributed and su
 - pygo for Norwegian
 - MidNightSonne and andrecrjr for Brazilian Portuguese
 - YaroslavaWise and Nomina for Russian
+- KyleLondon92 meow! for Serbian
 - Cristalla for Spanish
 - Tahadorukk | Guns'NRoses for Turkish
 - Tu Hoang for Vietnamese
@@ -99,7 +107,7 @@ Our sincere thanks go to everyone in the BANANO community who contributed and su
 - [André´s twitter](https://twitter.com/andrecrjr)
 - [sebrock´s twitter](https://twitter.com/sebrock)
 - or both of us on the [Banano Discord Server](https://chat.banano.cc/)
-andrecrjr / sebrock|42 세브로크-마흔 둘
+andrecrjr / sebrock|42 
 
 # Contribution Guide
 Feel free to open Issues for bugs, feature requests, improvents to the code in [https://github.com/sebrock/bananominer-watch-DEV_TEST/](https://github.com/sebrock/bananominer-watch-DEV_TEST/).
