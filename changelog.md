@@ -1,4 +1,9 @@
-# Bananominer-Watch Changelog 
+# Bananominer-Watch Changelog
+
+## V1.3.3 мајмун
+
+- Added Serbian language (locale: sr)
+- Removed estimate and just link to PPD-BAN estimation tool
 
 ## V1.3.2 Píthikos
 
