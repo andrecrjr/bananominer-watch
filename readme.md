@@ -8,10 +8,12 @@
 [![Discord](https://img.shields.io/badge/discord-join%20chat-orange.svg)](https://chat.banano.cc/)
 
 ![](./assets/BananoMiner-Watch_screen1_1.3.3.png)
+
 (pictured: German version)
 
 
 BananoMiner Watch is a **Chrome Browser Extension** that shows you all stats about your contributions to the [www.banano.cc team](https://stats.foldingathome.org/team/234980) at [Folding@home](https://foldingathome.org/) including the amount of $BAN you have already earned using your config from [https://bananominer.com/](https://bananominer.com/).
+If you want to learn more about how the Banano community is providing a valuable contribution to medical research you can check out [this article](https://www.publish0x.com/banano/heres-how-you-can-help-fight-coronavirus-and-youll-even-get-xmvdpq?a=QJ0dNjvdLO)
 
 # How to install?
 
@@ -64,6 +66,7 @@ Bonus feature: move your mouse over your BAN address and you will see the MonKey
 To update your stats just click update.
 
 ![](./assets/BananoMiner-Watch_result_1.3.3.png)
+
 (pictured: German version)
 
 ## Changelog
