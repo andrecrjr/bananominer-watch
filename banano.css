@@ -166,7 +166,8 @@ input.banano__input {
   border: 0;
   height: 25px;
   padding: 3px;
-  width: 100px;
+  width: 320px;
+  padding-right: 10px;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 }

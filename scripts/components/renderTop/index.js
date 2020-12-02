@@ -1,4 +1,4 @@
-import { banMenu, certificationMenu } from "../helper/querySelectors.js";
+import { banMenu } from "../helper/querySelectors.js";
 
 export const renderTop = () => {
   banMenu.innerHTML += `
@@ -24,7 +24,7 @@ export const renderTop = () => {
 };
 
 export const bananoMenuCertificates = (data) => {
-  certificationMenu.innerHTML = `
+  document.querySelector(".banano__menu--certificates").innerHTML = `
   <li>
   <a class="banano__top"  title="Credit Certification from F@H" href="${
     data[1].credit_cert
