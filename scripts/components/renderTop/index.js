@@ -27,11 +27,11 @@ export const bananoMenuCertificates = (data) => {
   if (data[1].credit_cert && data[1].wus_cert)
     document.querySelector(".banano__menu--certificates").innerHTML = `
   <li>
-  <a class="banano__top" title="Download Credit Certification from F@H" href="${
+  <a class="banano__top" title="Download Points Certificate from F@H" href="${
     data[1].credit_cert
-  }">${"Credit Certificate"}</a></li>
-  <li><a class="banano__top" title="Download Work Units Certification from F@H"  href="${
+  }">${"Certificate (Points)"}</a></li>
+  <li><a class="banano__top" title="Download Work Units Certificate from F@H"  href="${
     data[1].wus_cert
-  }" >${"Work Unit Certificate"}</a></li>
+  }" >${"Certificate (WUs)"}</a></li>
   </ul>`;
 };

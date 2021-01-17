@@ -6,6 +6,4 @@ export const button = document.querySelector(".get__banano");
 export const error = document.querySelector(".banano__title-error");
 export const banMenu = document.querySelector(".banano__menu");
 export const banAddress = document.querySelector(".banano__info--address");
-export const certificationMenu = document.querySelector(
-  ".banano__menu--certificates"
-);
+export const certificationMenu = document.querySelector(".banano__menu--certificates");
