@@ -11,6 +11,7 @@ export const updateUserData = (
 
 export const removeUserData = () => {
   button.innerText = `${chrome.i18n.getMessage("findMe")}`;
+  document.querySelector(".banano__menu--certificates").innerHTML = "";
   bananoSection.classList.add("close");
   localStorage.clear();
   setTimeout(() => {
