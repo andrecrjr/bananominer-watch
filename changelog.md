@@ -3,7 +3,7 @@
 ## V1.3.4 untitled
 
 - Added Download links to Certificates of Completion (Issue #49)
--
+- Adjusted (enlarged) lenght of the "Your user ID" field placeholder to cater for maximum lenght of i18 (Farsi)
 
 ## V1.3.3 мајмун
 
