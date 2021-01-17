@@ -1,5 +1,10 @@
 # Bananominer-Watch Changelog
 
+## V1.3.4 untitled
+
+- Added Download links to Certificates of Completion (Issue #49)
+-
+
 ## V1.3.3 мајмун
 
 - Added Serbian language (locale: sr)
