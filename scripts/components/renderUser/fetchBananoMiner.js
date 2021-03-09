@@ -24,7 +24,7 @@ export const fetchData = async (user) => {
   const bananoData = await Promise.all([
     fetch(`https://bananominer.com/user_name/${user}`),
     fetch(
-      `https://cors-anywhere.herokuapp.com/https://stats.foldingathome.org/api/donor/${user}`,
+      `https://banano-cors-proxy.herokuapp.com/https://stats.foldingathome.org/api/donor/${user}`,
       {
         "Content-Type": "application/json",
       }
