@@ -9,7 +9,7 @@
 # Temporary HOTFIX
 This version is a HOTFIX (workaround) adressing issues where users could not see their stats or saw their account incorrectly marked as inactive
 
-![](./assets/BananoMiner-Watch_screen1_1.3.3.png)
+![](./assets/BananoMiner-Watch_screen1_1.3.4.png)
 
 (pictured: German version)
 
@@ -19,7 +19,7 @@ If you want to learn more about how the Banano community is providing a valuable
 
 # How to install?
 
-![](./assets/BananoMiner-Watch_store_1.3.3_313.png)
+![](./assets/BananoMiner-Watch_store_1.3.4.png)
 
 Version V1.3.3 мајмун has been published in the [Google Chrome  Webstore](https://chrome.google.com/webstore/detail/pdnkikfbjfhikkpopfoaihhfbhaplpfc?authuser=0&hl=en), is available for download in all regions, and in 20 different languages covering 21 locales (locale identifiers in brackets):
   -  Arabic (ar)
@@ -67,7 +67,7 @@ You will now see all the stats about your contributions and your earnings.
 Bonus feature: move your mouse over your BAN address and you will see the MonKey for your address!
 To update your stats just click update.
 
-![](./assets/BananoMiner-Watch_result_1.3.3.png)
+![](./assets/BananoMiner-Watch_result_1.3.4.png)
 
 (pictured: German version)
 
@@ -104,6 +104,9 @@ Our sincere thanks go to everyone in the BANANO community who contributed and su
 
 # Graphic Design support
  - Oops
+
+# March 2021 Hotfix help provided by
+ - [heanzyzabala](https://github.com/heanzyzabala)
 
 *That's it guys. If you need to talk to us you can find us on Twitter:
 - [André´s twitter](https://twitter.com/andrecrjr)
