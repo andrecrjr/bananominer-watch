@@ -1,6 +1,6 @@
 {
   "name": "__MSG_extName__",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "__MSG_extDescription__",
   "default_locale": "en",
   "icons": {
@@ -17,7 +17,7 @@
     },
     "default_title": "BananoMiner Watch"
   },
-  "version_name": "V1.3.3 мајмун",
+  "version_name": "V1.3.4 HOTFIX",
   "homepage_url": "https://github.com/andrecrjr/bananominer-watch",
   "content_scripts": [],
   "event_rules": [],
