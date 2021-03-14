@@ -17,18 +17,20 @@ This version is a HOTFIX (workaround) adressing issues where users could not see
 BananoMiner Watch is a **Chrome Browser Extension** that shows you all stats about your contributions to the [www.banano.cc team](https://stats.foldingathome.org/team/234980) at [Folding@home](https://foldingathome.org/) including the amount of $BAN you have already earned using your config from [https://bananominer.com/](https://bananominer.com/).
 If you want to learn more about how the Banano community is providing a valuable contribution to medical research you can check out [this article](https://www.publish0x.com/banano/heres-how-you-can-help-fight-coronavirus-and-youll-even-get-xmvdpq?a=QJ0dNjvdLO)
 
+
+
 # How to install?
 
 ![](./assets/BananoMiner-Watch_store_1.3.4.png)
 
-Version V1.3.3 мајмун has been published in the [Google Chrome  Webstore](https://chrome.google.com/webstore/detail/pdnkikfbjfhikkpopfoaihhfbhaplpfc?authuser=0&hl=en), is available for download in all regions, and in 20 different languages covering 21 locales (locale identifiers in brackets):
+Version V1.3.4 HOTFIX has been published in the [Google Chrome  Webstore](https://chrome.google.com/webstore/detail/pdnkikfbjfhikkpopfoaihhfbhaplpfc?authuser=0&hl=en), is available for download in all regions, and in 20 different languages covering 21 locales (locale identifiers in brackets):
   -  Arabic (ar)
   -  Danish (da)
   -  German (de)
   -  Greek (el)
   -  English - default (en)
   -  Spanish (es)
-  -  **NEW - Serbian (sr) - NEW**
+  -  Serbian (sr)
   -  Latin Amrican Spanish (es_419)
   -  Persian (fa)
   -  French (fr)
@@ -43,6 +45,13 @@ Version V1.3.3 мајмун has been published in the [Google Chrome  Webstore](
   -  Russian (ru)
   -  Vietnamese (vt)
   -  Chinese - Mandarin (zh_CN)
+  
+# New feature: Certificates
+The [Folding@home](https://foldingathome.org/) project issues certificates to contributing folders based on how much work was provided.
+There is a certificate for completed Work Units(WU) and for Points(score).
+The numbers are rounded and a WU certificate looks like this:
+
+![](./assets/FoldingAtHome-wus-certificate-83904266.jpg)
 
 # Want to test the latest Development build?
 
@@ -75,7 +84,7 @@ To update your stats just click update.
 
 You can find the Changelog [here](./changelog.md)
 
-## Credits
+## :raising_hand: Credits
 Our sincere thanks go to everyone in the BANANO community who contributed and supported in the making of this. BAN fam - best fam! 💛
 
 # Translation and Proofreading
@@ -114,10 +123,14 @@ Our sincere thanks go to everyone in the BANANO community who contributed and su
 - or both of us on the [Banano Discord Server](https://chat.banano.cc/)
 andrecrjr / sebrock|42 
 
-# Contribution Guide
+# :muscle: Contribution Guide
 Feel free to open Issues for bugs, feature requests, improvents to the code in [https://github.com/sebrock/bananominer-watch-DEV_TEST/](https://github.com/sebrock/bananominer-watch-DEV_TEST/).
 Please commit to a separate branch and create PRs towards the DEV_TEST master.
 
 ![https://github.com/sebrock/bananominer-watch-DEV_TEST/](./assets/DEVTEST_repository-card-small.png)
+
+# :copyright: License
+
+[MIT](http://opensource.org/licenses/MIT)
 
 Made with 🧡 and potassium 🍌 in Brazil, Germany, and the BANANO Jungle.
