@@ -53,7 +53,7 @@ The numbers are rounded and a WU certificate looks like this:
 
 ![](./assets/FoldingAtHome-wus-certificate-83904266.jpg)
 
-# Want to test the latest Development build?
+# :factory: Want to test the latest Development build?
 
 ## Step 1 Download from github
  Download the latest dev build from [tags in github](https://github.com/sebrock/bananominer-watch-DEV_TEST/releases) (Download ZIP)
@@ -80,7 +80,7 @@ To update your stats just click update.
 
 (pictured: German version)
 
-## Changelog
+## :scroll: Changelog
 
 You can find the Changelog [here](./changelog.md)
 
@@ -89,32 +89,32 @@ Our sincere thanks go to everyone in the BANANO community who contributed and su
 
 # Translation and Proofreading
 
-- AhmedDhaif93 for Arabic
-- Goose for Chinese
-- Kryptopia for Danish
-- ATH for Dutch
-- Liberty_Seed and iazid for French
-- sebrock for German
-- Demetrius for Greek
-- Skittish for Hindi
-- Pramono for Bahasa Indonesia
-- Lore and macaleon for Italian
-- Africa by Toto for Japanese
-- mina_hanem for Farsi
-- nknown for Portuguese
-- pygo for Norwegian
-- MidNightSonne and andrecrjr for Brazilian Portuguese
-- YaroslavaWise and Nomina for Russian
-- KyleLondon92 meow! for Serbian
-- Cristalla for Spanish
-- Tahadorukk | Guns'NRoses for Turkish
-- Tu Hoang for Vietnamese
-- bbedward for reminding the jungle to support
+- :point_right: AhmedDhaif93 for Arabic
+- :point_right: Goose for Chinese
+- :point_right: Kryptopia for Danish
+- :point_right: ATH for Dutch
+- :point_right: Liberty_Seed and iazid for French
+- :point_right: sebrock for German
+- :point_right: Demetrius for Greek
+- :point_right: Skittish for Hindi
+- :point_right: Pramono for Bahasa Indonesia
+- :point_right: Lore and macaleon for Italian
+- :point_right: Africa by Toto for Japanese
+- :point_right: mina_hanem for Farsi
+- :point_right: nknown for Portuguese
+- :point_right: pygo for Norwegian
+- :point_right: MidNightSonne and andrecrjr for Brazilian Portuguese
+- :point_right: YaroslavaWise and Nomina for Russian
+- :point_right: KyleLondon92 meow! for Serbian
+- :point_right: Cristalla for Spanish
+- :point_right: Tahadorukk | Guns'NRoses for Turkish
+- :point_right: Tu Hoang for Vietnamese
+- :point_right: bbedward for reminding the jungle to support
 
 # Graphic Design support
  - Oops
 
-# March 2021 Hotfix help provided by
+# :star2: March 2021 Hotfix help provided by :star2:
  - [heanzyzabala](https://github.com/heanzyzabala)
 
 *That's it guys. If you need to talk to us you can find us on Twitter:
@@ -133,4 +133,4 @@ Please commit to a separate branch and create PRs towards the DEV_TEST master.
 
 [MIT](http://opensource.org/licenses/MIT)
 
-Made with 🧡 and potassium 🍌 in Brazil, Germany, and the BANANO Jungle.
+Made with :yellow_heart: and :banana: potassium in Brazil, Germany, and the BANANO Jungle :monkey::monkey:.
