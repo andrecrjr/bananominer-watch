@@ -2,7 +2,7 @@ import { userInput, error, button, remove } from "../helper/querySelectors.js";
 import { updateUserData, removeUserData } from "./updaters.js";
 import { validationInputAddress } from "./validationInput.js";
 import { checkYourWus } from "./checkWus.js";
-import { estimateBananos } from "../helper/estimateBan.js";
+import { bananoMenuCertificates } from "../renderTop/index.js";
 
 export async function getDataBananoMiner() {
   let user = userInput.value;
@@ -24,7 +24,7 @@ export const fetchData = async (user) => {
   const bananoData = await Promise.all([
     fetch(`https://bananominer.com/user_name/${user}`),
     fetch(
-      `https://cors-anywhere.herokuapp.com/https://stats.foldingathome.org/api/donor/${user}`,
+      `https://banano-cors-proxy.herokuapp.com/https://stats.foldingathome.org/api/donor/${user}`,
       {
         "Content-Type": "application/json",
       }
@@ -34,6 +34,7 @@ export const fetchData = async (user) => {
   console.log(data);
   if (bananoData[0].status === 200 && bananoData[1].status === 200) {
     error.classList.remove("open");
+    bananoMenuCertificates(data);
     renderComponent(data);
   } else {
     error.innerText = chrome.i18n.getMessage("errNotfound");

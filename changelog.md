@@ -1,5 +1,16 @@
 # Bananominer-Watch Changelog
 
+## V1.3.4 HOTFIX
+
+This version is a HOTFIX (workaround) addressing issues where users could not see their stats or saw their account incorrectly marked as inactive
+- Replaced the demo cors server address with https://banano-cors-proxy.herokuapp.com (kindly provided by @heanzyzabala)
+- Temporarily disabled the account inactivity check
+
+## V1.3.4 untitled
+
+- Added Download links to Certificates of Completion (Issue #49)
+- Adjusted (enlarged) lenght of the "Your user ID" field placeholder to cater for maximum lenght of i18 (Farsi)
+
 ## V1.3.3 мајмун
 
 - Added Serbian language (locale: sr)
@@ -14,7 +25,6 @@
 
 
 ## V1.3.1 Bonobo
-
 
 - Added 5 languages (locale identifiers in brackets):
   -  Danish (da)

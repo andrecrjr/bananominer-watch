@@ -47,10 +47,9 @@ main {
   text-decoration: none;
 }
 .banano__menu .banano__top {
-  padding-bottom: 5px;
-  margin-right: 25px;
   border-bottom: solid 2px white;
 }
+
 /*tooltip*/
 .tooltip {
   opacity: 0;
@@ -167,7 +166,8 @@ input.banano__input {
   border: 0;
   height: 25px;
   padding: 3px;
-  width: 100px;
+  width: 320px;
+  padding-right: 10px;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
 }
@@ -231,3 +231,41 @@ button {
   display: block;
   opacity: 1;
 }
+
+#menu {
+  height: 0;
+}
+
+.hamburguer-logo {
+  margin-right: 25px;
+}
+
+.banano__menu--links {
+  list-style-type: none;
+}
+
+.banano--main-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateX(100%);
+  margin-top: 40px;
+  padding-right: 25px;
+  transition: all 0.5s linear;
+}
+.banano--main-menu li a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+#menu:checked ~ .banano--main-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0%);
+  transition: all 0.5s linear;
+}
+
+/*n7iy7lnejdxv*/
