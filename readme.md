@@ -49,6 +49,8 @@ Version V1.3.4 HOTFIX has been published in the [Google Chrome  Webstore](https:
 # New feature: Certificates
 The [Folding@home](https://foldingathome.org/) project issues certificates to contributing folders based on how much work was provided.
 There is a certificate for completed Work Units(WU) and for Points(score).
+You can get your own by choosing the certificate you want from the hamburger menu:
+![](./assets/BananoMiner-Watch_hamburger_1.3.4.png)
 The numbers are rounded and a WU certificate looks like this:
 
 ![](./assets/FoldingAtHome-wus-certificate-83904266.jpg)
