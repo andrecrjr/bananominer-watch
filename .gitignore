@@ -141,3 +141,9 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Mac files
+.DS_Store
+
+# Intellij
+.idea
