@@ -24,9 +24,10 @@ export const fetchData = async (user) => {
   const bananoData = await Promise.all([
     fetch(`https://bananominer.com/user_name/${user}`),
     fetch(
-      `https://banano-cors-proxy.herokuapp.com/https://stats.foldingathome.org/api/donor/${user}`,
+      `https://banano-cors-proxy.herokuapp.com/https://api2.foldingathome.org/user/${user}`,
       {
         "Content-Type": "application/json",
+        "Origin": document.location.href
       }
     ),
   ]);
@@ -83,7 +84,8 @@ const renderComponent = (data) => {
     data[0].payments.forEach((el) => {
       totalAmount += el.amount;
     });
-  template += `<section class="banano__info"><h2>Score:</h2><p>${data[1].teams[0].credit}</p></section> `;
+  totalAmount = Math.round(totalAmount * 100) / 100;
+  template += `<section class="banano__info"><h2>Score:</h2><p>${data[1].teams[0].score}</p></section> `;
   template += `<section class="banano__info"><h2>${chrome.i18n.getMessage(
     "banEarned"
   )}</h2><p>${totalAmount}</p></section>`;
