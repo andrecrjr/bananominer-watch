@@ -14,7 +14,7 @@ export const renderTop = () => {
     <nav class="banano--main-menu">
       <ul class="banano__menu--links">
       <li>
-      <a href="https://ban.family/fah" class="banano__top" title="Go to PPD-BAN estimation tool" target="_blank" style="padding-top:3px;">
+      <a href="https://turtlebyte.github.io/bananocalculator/" class="banano__top" title="Go to PPD-BAN estimation tool" target="_blank" style="padding-top:3px;">
         PPD-BAN estimation tool   
       </a>
       </li>
